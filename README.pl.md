@@ -11,7 +11,11 @@ Obsługuje ekran bezpośrednio, bez oprogramowania producenta, i zamienia go w T
 ![Freeware](https://img.shields.io/badge/licencja-freeware-success?style=flat-square)
 ![Platforma](https://img.shields.io/badge/Windows%2010%20%7C%2011-x64-0078D4?style=flat-square)
 
-[**Pobierz**](https://github.com/vitcox/RigCanvas/releases/latest) · [Funkcje](#funkcje) · [Pierwsze kroki](#pierwsze-kroki) · [FAQ](#faq) · [Zgłoś problem](https://github.com/vitcox/RigCanvas/issues) · [English](README.md)
+[**Pobierz**](https://github.com/vitcox/RigCanvas/releases/latest) · [Funkcje](#funkcje) · [Zrzuty ekranu](#zrzuty-ekranu) · [Pierwsze kroki](#pierwsze-kroki) · [FAQ](#faq) · [Zgłoś problem](https://github.com/vitcox/RigCanvas/issues) · [English](README.md)
+
+<br><br>
+
+<img src="screenshots/banner.png" alt="Kilka wbudowanych motywów tak, jak wyglądają na ekranie 480×854">
 
 </div>
 
@@ -42,6 +46,22 @@ Obsługuje ekran bezpośrednio, bez oprogramowania producenta, i zamienia go w T
 - Jasność, automatyczne przyciemnianie w nocy, wygaszanie przy zablokowanym lub uśpionym PC.
 - Ikona w zasobniku, start z Windows, wbudowane aktualizacje, kreator pierwszego uruchomienia.
 - Polski i angielski, interfejs ciemny i jasny.
+
+## Zrzuty ekranu
+
+Program ma polski i angielski interfejs; zrzuty pokazują wersję angielską.
+
+**Biblioteka motywów:** miniatury na żywo, wyszukiwanie i kategorie, motyw na ekran jednym kliknięciem.
+
+![Biblioteka motywów](screenshots/gallery.png)
+
+**Edytor:** przeciąganie widżetów na podglądzie na żywo, wszystkie właściwości w inspektorze po prawej.
+
+![Edytor motywów](screenshots/editor.png)
+
+**Ustawienia:** ekran, czujniki, uruchamianie, pogoda, alerty i automatyczna zmiana motywu.
+
+![Ustawienia](screenshots/settings.png)
 
 ## Pierwsze kroki
 

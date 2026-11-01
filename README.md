@@ -12,7 +12,11 @@ It drives the screen directly, with no vendor software, and turns it into your o
 ![Platform](https://img.shields.io/badge/Windows%2010%20%7C%2011-x64-0078D4?style=flat-square)
 ![Languages](https://img.shields.io/badge/UI-English%20%7C%20Polski-informational?style=flat-square)
 
-[**Download**](https://github.com/vitcox/RigCanvas/releases/latest) · [Features](#features) · [Getting started](#getting-started) · [FAQ](#faq) · [Report a problem](https://github.com/vitcox/RigCanvas/issues) · [Polski](README.pl.md)
+[**Download**](https://github.com/vitcox/RigCanvas/releases/latest) · [Features](#features) · [Screenshots](#screenshots) · [Getting started](#getting-started) · [FAQ](#faq) · [Report a problem](https://github.com/vitcox/RigCanvas/issues) · [Polski](README.pl.md)
+
+<br><br>
+
+<img src="screenshots/banner.png" alt="A few of the built-in themes, as they appear on the 480×854 screen">
 
 </div>
 
@@ -43,6 +47,20 @@ It drives the screen directly, with no vendor software, and turns it into your o
 - Brightness, automatic night dimming, screen off when the PC is locked or asleep.
 - Tray icon, start with Windows, built-in updates, first-start wizard.
 - English and Polish, dark and light interface.
+
+## Screenshots
+
+**Theme library:** live thumbnails, search and categories, one click to put a theme on the screen.
+
+![Theme library](screenshots/gallery.png)
+
+**Editor:** drag widgets on a live preview; every property in the inspector on the right.
+
+![Theme editor](screenshots/editor.png)
+
+**Settings:** screen, sensors, startup, weather, alerts and automatic theme switching.
+
+![Settings](screenshots/settings.png)
 
 ## Getting started
 
