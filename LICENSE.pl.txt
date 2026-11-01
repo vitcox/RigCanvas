@@ -1,0 +1,60 @@
+﻿RigCanvas - Umowa licencyjna (freeware)
+Copyright (c) 2026 vitcox. Wszelkie prawa zastrzeżone.
+
+Instalując lub używając programu RigCanvas („Program”) akceptujesz poniższe warunki.
+
+1. Bezpłatne używanie
+   Program jest darmowy. Możesz go zainstalować i używać na dowolnej liczbie
+   komputerów, które posiadasz lub z których możesz korzystać, do celów prywatnych
+   i komercyjnych.
+
+2. Udostępnianie
+   Możesz bezpłatnie przekazywać innym niezmieniony instalator, razem z tą licencją.
+   Nie wolno sprzedawać Programu, pobierać za niego opłat, dołączać go do płatnych
+   pakietów ani przedstawiać go jako własnego.
+
+3. Ograniczenia
+   Nie wolno modyfikować, dekompilować, deasemblować ani poddawać Programu inżynierii
+   wstecznej, z wyjątkiem sytuacji, w których obowiązujące prawo wyraźnie na to
+   pozwala mimo tego zastrzeżenia. Nie wolno usuwać informacji o prawach autorskich
+   ani o licencji.
+
+4. Twoje treści
+   Motywy, układy i pliki utworzone w Programie należą do Ciebie. Pobrane lub
+   zaimportowane motywy zachowują prawa swoich autorów.
+
+5. Składniki innych firm
+   Program zawiera składniki objęte własnymi licencjami (wymienione w pliku
+   THIRD-PARTY-NOTICES.md); te licencje dotyczą tych składników. Niektóre
+   opcjonalne funkcje korzystają z oprogramowania instalowanego osobno (PawnIO,
+   RivaTuner Statistics Server, Thermalright TRCC, HWiNFO), które nie jest częścią
+   Programu i podlega własnym warunkom.
+
+6. Brak powiązań
+   RigCanvas jest niezależnym projektem. Nie jest tworzony, popierany ani wspierany
+   przez firmę Thermalright ani innego producenta sprzętu. Nazwy produktów służą
+   wyłącznie do opisania zgodności.
+
+7. Brak gwarancji
+   Program jest dostarczany „tak jak jest”, bez jakiejkolwiek gwarancji, wyraźnej
+   ani dorozumianej, w tym przydatności do określonego celu. Działa z uprawnieniami
+   administratora, komunikuje się z urządzeniami USB i odczytuje czujniki sprzętowe;
+   używasz go na własne ryzyko.
+
+8. Ograniczenie odpowiedzialności
+   W najszerszym zakresie dozwolonym przez prawo autor nie odpowiada za żadne szkody,
+   utratę danych, wadliwe działanie sprzętu ani inne straty wynikające z używania
+   Programu lub niemożności jego użycia.
+
+9. Aktualizacje i zmiany
+   Program może sprawdzać i instalować aktualizacje z oficjalnej strony pobierania.
+   Autor może zmienić te warunki dla przyszłych wersji; dla danej wersji obowiązują
+   warunki dołączone do tej wersji.
+
+10. Wygaśnięcie
+    Licencja wygasa automatycznie w razie naruszenia jej warunków. Należy wtedy
+    przestać używać Programu i usunąć jego kopie.
+
+W razie rozbieżności między wersjami językowymi rozstrzyga wersja angielska (LICENSE.txt).
+
+Oficjalna strona pobierania: https://github.com/vitcox/RigCanvas

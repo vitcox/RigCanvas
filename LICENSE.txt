@@ -1,0 +1,56 @@
+﻿RigCanvas - Freeware License Agreement
+Copyright (c) 2026 vitcox. All rights reserved.
+
+By installing or using RigCanvas ("the Software") you agree to these terms.
+
+1. Free use
+   The Software is free of charge. You may install and use it on any number of
+   computers you own or are allowed to use, for private and commercial purposes.
+
+2. Sharing
+   You may pass on the unmodified installer to others, free of charge, together
+   with this license. You may not sell the Software, charge for it, include it in
+   paid bundles, or present it as your own.
+
+3. Restrictions
+   You may not modify, decompile, disassemble or reverse engineer the Software,
+   except where applicable law expressly permits it despite this restriction.
+   You may not remove copyright or license notices.
+
+4. Your content
+   Themes, layouts and files you create with the Software belong to you. Themes
+   you download or import keep the rights of their authors.
+
+5. Third-party components
+   The Software includes components under their own licenses (listed in
+   THIRD-PARTY-NOTICES.md). Those licenses apply to those components. Some
+   optional features use separately installed software (PawnIO, RivaTuner
+   Statistics Server, Thermalright TRCC, HWiNFO), which is not part of the
+   Software and is covered by its own terms.
+
+6. Not affiliated
+   RigCanvas is an independent project. It is not made, endorsed or supported by
+   Thermalright or any other hardware vendor. Product names are used only to
+   describe compatibility.
+
+7. No warranty
+   The Software is provided "as is", without warranty of any kind, express or
+   implied, including fitness for a particular purpose. It runs with administrator
+   rights, communicates with USB hardware and reads hardware sensors; you use it
+   at your own risk.
+
+8. Limitation of liability
+   To the maximum extent permitted by law, the author is not liable for any
+   damage, data loss, hardware malfunction or other loss arising from the use of,
+   or the inability to use, the Software.
+
+9. Updates and changes
+   The Software can check for and install updates from its official download
+   page. The author may change these terms for future versions; the terms that
+   came with a version apply to that version.
+
+10. Termination
+    This license ends automatically if you break its terms. You must then stop
+    using the Software and delete your copies.
+
+Official download page: https://github.com/vitcox/RigCanvas

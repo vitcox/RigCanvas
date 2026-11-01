@@ -1,0 +1,15 @@
+name: Feature request / theme idea
+description: Suggest a feature, sensor or theme
+labels: [enhancement]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like?
+      description: Describe the feature or theme. Mock-ups and screenshots are welcome; attach `.tlcd` files for theme ideas.
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why is it useful?

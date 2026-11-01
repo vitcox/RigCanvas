@@ -1,0 +1,92 @@
+<div align="center">
+
+# RigCanvas
+
+**Free Windows app for the 480×854 USB LCD on Thermalright coolers.**
+It drives the screen directly, with no vendor software, and turns it into your own live dashboard: 30 themes, a visual editor, live sensors, weather, alerts and more.
+
+[![Latest release](https://img.shields.io/github/v/release/vitcox/RigCanvas?style=flat-square&label=download)](https://github.com/vitcox/RigCanvas/releases/latest)
+![Freeware](https://img.shields.io/badge/license-freeware-success?style=flat-square)
+![Platform](https://img.shields.io/badge/Windows%2010%20%7C%2011-x64-0078D4?style=flat-square)
+![Languages](https://img.shields.io/badge/UI-English%20%7C%20Polski-informational?style=flat-square)
+
+[**Download**](https://github.com/vitcox/RigCanvas/releases/latest) · [Features](#features) · [Getting started](#getting-started) · [FAQ](#faq) · [Report a problem](https://github.com/vitcox/RigCanvas/issues) · [Polski](README.pl.md)
+
+</div>
+
+---
+
+## Features
+
+**🎨 Themes**
+- 30 built-in themes (dark, light and info panels) that show *your* hardware names automatically.
+- Pictures, animated GIFs and videos as backgrounds, cropped and converted once so playback stays light.
+- **Playlists** that rotate themes with a cross-fade.
+- **Automatic theme:** switch to a music, game or night theme while something is going on (music playing, a game running, a time window, a sensor above or below a limit, an alert).
+- Share themes as `.tlcd` packages (layout, images, fonts) or install them from the online gallery.
+
+**🛠 Visual editor**
+- Drag and drop on a live preview, with snapping guides, a grid, alignment tools and zoom.
+- Widgets: values, tiles with sparklines, graphs from 30 s up to 24 h, arc / LED / needle gauges, bars, analog clock, calendar, countdown, scrolling ticker, audio spectrum, album art, weather icons, panels, pictures.
+- Color thresholds and color scales, glow and shadow effects, custom fonts, smooth value animations.
+- Layer folders, undo / redo, copy and paste between themes, reusable widget templates.
+
+**📊 Data**
+- CPU and GPU temperature, load, power and clocks; fans, pump, coolant, RAM, disks, network.
+- Every raw sensor LibreHardwareMonitor sees, with an easy mapping for board-specific fans.
+- Game FPS (RivaTuner Statistics Server), now playing (Spotify, browsers, any Windows player), weather (Open-Meteo, no account).
+
+**⚙ Everyday use**
+- Alerts on the LCD and as a Windows notification (GPU too hot, pump stopped…).
+- Brightness, automatic night dimming, screen off when the PC is locked or asleep.
+- Tray icon, start with Windows, built-in updates, first-start wizard.
+- English and Polish, dark and light interface.
+
+## Getting started
+
+### Requirements
+- Windows 10 or 11, 64-bit.
+- A Thermalright cooler with the 480×854 USB LCD (USB ID `87AD:70DB`).
+- Recommended: the free **[PawnIO](https://pawnio.eu/)** driver (`winget install namazso.PawnIO`). Without it the CPU temperature / power and motherboard fans can't be read. It's a separate project, so it isn't bundled; setup offers the download page if it's missing.
+- Optional: [RivaTuner Statistics Server](https://www.guru3d.com/download/rtss-rivatuner-statistics-server-download/) (comes with MSI Afterburner) for game FPS.
+- Thermalright TRCC is **not** needed. If it's installed, close it: only one program can drive the screen.
+
+### Install
+1. Download `RigCanvas-Setup-x.y.z.exe` from [Releases](https://github.com/vitcox/RigCanvas/releases/latest).
+2. Run it. Everything it needs is included; no .NET install required.
+3. The first-start wizard checks the screen and PawnIO and lets you pick a theme.
+
+The app runs with administrator rights, because hardware sensors and the USB screen need them. Windows asks once at startup; "start with Windows" uses a scheduled task, so it doesn't ask at every logon.
+
+### Uninstall
+**Windows Settings → Apps → RigCanvas → Uninstall.** The uninstaller asks whether to keep your settings and themes (`%AppData%\RigCanvas`).
+
+## FAQ
+
+**Windows SmartScreen says "Windows protected your PC".**
+The installer isn't code-signed yet. Click *More info → Run anyway*.
+
+**Nothing shows up on the LCD.**
+Close TRCC if it runs, then unplug and replug the screen's USB cable; the app reconnects within a few seconds. **Settings → LCD screen** shows the connection state and has a button to open the log.
+
+**CPU temperature shows `--`.**
+Install [PawnIO](https://pawnio.eu/) and restart the app. **Settings → Telemetry** shows whether it was found.
+
+**Does it work with other screens?**
+Only the 480×854 panel (`87AD:70DB`) is supported for now.
+
+**Where are my themes?**
+In `%AppData%\RigCanvas\Themes` (Themes tab → folder button). Share one with **Export** as a `.tlcd` file.
+
+**How do I get my theme into the online gallery?**
+Open an [issue](https://github.com/vitcox/RigCanvas/issues) and attach the exported `.tlcd` file.
+
+## Support
+
+Bugs and ideas: [GitHub Issues](https://github.com/vitcox/RigCanvas/issues). Please include the app version (Settings → Updates and about) and, for screen problems, the log (Settings → LCD screen → Open log).
+
+## License
+
+RigCanvas is **freeware**: free for private and commercial use, and you may share the unmodified installer. See [LICENSE.txt](LICENSE.txt) (Polish: [LICENSE.pl.txt](LICENSE.pl.txt)). Third-party components are listed in [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md).
+
+RigCanvas is an independent project and is not affiliated with or endorsed by Thermalright.

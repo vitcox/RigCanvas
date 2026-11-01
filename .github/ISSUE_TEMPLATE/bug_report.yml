@@ -1,0 +1,40 @@
+name: Bug report
+description: Something doesn't work as expected
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for reporting! Please check the [FAQ](https://github.com/vitcox/RigCanvas#faq) first.
+  - type: input
+    id: version
+    attributes:
+      label: App version
+      description: Settings → Updates
+      placeholder: "1.0.0"
+    validations:
+      required: true
+  - type: input
+    id: hardware
+    attributes:
+      label: Cooler / screen, CPU, GPU
+      placeholder: "Thermalright … (480×854), Ryzen 7 5800X3D, RTX 5070 Ti"
+    validations:
+      required: true
+  - type: input
+    id: windows
+    attributes:
+      label: Windows version
+      placeholder: "Windows 11 24H2"
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What you did, what you expected, what happened instead. Screenshots help.
+    validations:
+      required: true
+  - type: textarea
+    id: sensors
+    attributes:
+      label: Sensor dump (for sensor problems)
+      description: Output of `RigCanvas.exe sensors` run from an administrator terminal
+      render: text
