@@ -1,5 +1,5 @@
 ﻿RigCanvas - Freeware License Agreement
-Copyright (c) 2026 vitcox. All rights reserved.
+Copyright (c) 2026 Vitcox Dev House (vitcox). All rights reserved.
 
 By installing or using RigCanvas ("the Software") you agree to these terms.
 

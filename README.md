@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="logo.png" width="128" alt="RigCanvas logo">
+
 # RigCanvas
 
 **Free Windows app for the 480×854 USB LCD on Thermalright coolers.**
@@ -89,4 +91,4 @@ Bugs and ideas: [GitHub Issues](https://github.com/vitcox/RigCanvas/issues). Ple
 
 RigCanvas is **freeware**: free for private and commercial use, and you may share the unmodified installer. See [LICENSE.txt](LICENSE.txt) (Polish: [LICENSE.pl.txt](LICENSE.pl.txt)). Third-party components are listed in [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md).
 
-RigCanvas is an independent project and is not affiliated with or endorsed by Thermalright.
+Made by **Vitcox Dev House**. RigCanvas is an independent project and is not affiliated with or endorsed by Thermalright.

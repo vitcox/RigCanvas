@@ -1,6 +1,6 @@
 # Third-party notices
 
-RigCanvas is freeware by vitcox (see LICENSE.txt). It is an independent project and is not affiliated with or endorsed by Thermalright.
+RigCanvas is freeware by Vitcox Dev House (see LICENSE.txt). It is an independent project and is not affiliated with or endorsed by Thermalright.
 
 ## Bundled
 

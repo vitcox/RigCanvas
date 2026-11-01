@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="logo.png" width="128" alt="Logo RigCanvas">
+
 # RigCanvas
 
 **Darmowy program dla Windows do ekranu LCD 480×854 (USB) w chłodzeniach Thermalright.**
@@ -88,4 +90,4 @@ Błędy i pomysły: [GitHub Issues](https://github.com/vitcox/RigCanvas/issues).
 
 RigCanvas to **freeware**: darmowy do użytku prywatnego i komercyjnego, niezmieniony instalator można przekazywać dalej. Szczegóły w [LICENSE.pl.txt](LICENSE.pl.txt) (wiążąca wersja angielska: [LICENSE.txt](LICENSE.txt)). Składniki innych firm są wymienione w [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md).
 
-RigCanvas jest niezależnym projektem, niepowiązanym z firmą Thermalright.
+Stworzone przez **Vitcox Dev House**. RigCanvas jest niezależnym projektem, niepowiązanym z firmą Thermalright.
