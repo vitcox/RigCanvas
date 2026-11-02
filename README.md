@@ -114,6 +114,13 @@ In `%AppData%\RigCanvas\Themes` (Themes tab → folder button). Share one with *
 **How do I get my theme into the online gallery?**
 Open an [issue](https://github.com/vitcox/RigCanvas/issues) and attach the exported `.tlcd` file.
 
+## Is it safe?
+
+- **Virus scan:** the installer's download link was checked by 93 engines on VirusTotal with no detections ([report](https://www.virustotal.com/gui/url/9405c2ebf468c5af583cd37dd9ad4d8c48f3e9508d06a657ef928ac61e20342c)).
+- **Why administrator rights:** reading hardware sensors (LibreHardwareMonitor with the PawnIO driver) and talking to the USB screen both need them. RigCanvas installs no drivers of its own.
+- **No telemetry:** nothing about you or your PC is sent anywhere. The app only goes online for the update check and the online theme gallery (GitHub), and for weather if you turn it on (Open-Meteo, only the place you typed).
+- **SmartScreen warning:** the installer isn't code-signed yet, so Windows shows "unknown publisher". That is about the missing certificate, not the contents.
+
 ## Support
 
 Bugs and ideas: [GitHub Issues](https://github.com/vitcox/RigCanvas/issues). Please include the app version (Settings → Updates and about) and, for screen problems, the log (Settings → LCD screen → Open log).

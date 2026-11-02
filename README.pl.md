@@ -11,7 +11,7 @@ Obsługuje ekran bezpośrednio, bez oprogramowania producenta, i zamienia go w T
 ![Freeware](https://img.shields.io/badge/licencja-freeware-success?style=flat-square)
 ![Platforma](https://img.shields.io/badge/Windows%2010%20%7C%2011-x64-0078D4?style=flat-square)
 
-[**Pobierz**](https://github.com/vitcox/RigCanvas/releases/latest) · [Funkcje](#funkcje) · [Zrzuty ekranu](#zrzuty-ekranu) · [Pierwsze kroki](#pierwsze-kroki) · [FAQ](#faq) · [Zgłoś problem](https://github.com/vitcox/RigCanvas/issues) · [English](README.md)
+[**Pobierz**](https://github.com/vitcox/RigCanvas/releases/latest) · [Funkcje](#funkcje) · [Zrzuty ekranu](#zrzuty-ekranu) · [Pierwsze kroki](#pierwsze-kroki) · [FAQ](#faq) · [Czy to bezpieczne?](#czy-to-bezpieczne) · [Zgłoś problem](https://github.com/vitcox/RigCanvas/issues) · [English](README.md)
 
 <br><br>
 
@@ -114,6 +114,13 @@ W `%AppData%\RigCanvas\Themes` (zakładka Motywy → przycisk folderu). Motyw ud
 
 **Jak dodać mój motyw do galerii online?**
 Otwórz [zgłoszenie](https://github.com/vitcox/RigCanvas/issues) i dołącz wyeksportowany plik `.tlcd`.
+
+## Czy to bezpieczne?
+
+- **Skan antywirusowy:** link do pobrania instalatora sprawdziło 93 silników w VirusTotal, bez żadnych wykryć ([raport](https://www.virustotal.com/gui/url/9405c2ebf468c5af583cd37dd9ad4d8c48f3e9508d06a657ef928ac61e20342c)).
+- **Po co uprawnienia administratora:** wymagają ich odczyt czujników sprzętowych (LibreHardwareMonitor ze sterownikiem PawnIO) i komunikacja z ekranem USB. RigCanvas nie instaluje własnych sterowników.
+- **Brak telemetrii:** program nie wysyła żadnych danych o Tobie ani o komputerze. Łączy się z internetem tylko w celu sprawdzenia aktualizacji i po galerię motywów online (GitHub), a po pogodę tylko gdy ją włączysz (Open-Meteo, wyłącznie wpisana miejscowość).
+- **Ostrzeżenie SmartScreen:** instalator nie jest jeszcze podpisany cyfrowo, więc Windows pokazuje „nieznany wydawca”. Dotyczy to braku certyfikatu, nie zawartości.
 
 ## Wsparcie
 
