@@ -1,4 +1,974 @@
 {
   "version": 1,
-  "themes": []
+  "themes": [
+    {
+      "name": "Synthwave Drive",
+      "author": "RigCanvas",
+      "description": "Endless neon road at sunset (video loop) with temperatures, FPS and loads in a glowing dash.",
+      "descriptionPl": "Niekończąca się neonowa droga o zachodzie słońca (wideo) z temperaturami, FPS i obciążeniem w świecącym kokpicie.",
+      "file": "SynthwaveDrive.tlcd",
+      "thumbnail": "SynthwaveDrive.jpg",
+      "tags": [
+        "animated",
+        "retro",
+        "neon",
+        "gaming"
+      ]
+    },
+    {
+      "name": "Warp Speed",
+      "author": "RigCanvas",
+      "description": "Flying through the stars (video loop); FPS in the middle of a GPU-load ring, frame times below.",
+      "descriptionPl": "Lot przez gwiazdy (wideo); FPS w środku pierścienia obciążenia GPU, czasy klatek poniżej.",
+      "file": "WarpSpeed.tlcd",
+      "thumbnail": "WarpSpeed.jpg",
+      "tags": [
+        "animated",
+        "scifi",
+        "gaming"
+      ]
+    },
+    {
+      "name": "Aurora Night",
+      "author": "RigCanvas",
+      "description": "Northern lights waving over the mountains (video loop), a quiet clock, weather and temperatures.",
+      "descriptionPl": "Zorza polarna falująca nad górami (wideo), spokojny zegar, pogoda i temperatury.",
+      "file": "AuroraNight.tlcd",
+      "thumbnail": "AuroraNight.jpg",
+      "tags": [
+        "animated",
+        "nature",
+        "clock",
+        "weather"
+      ]
+    },
+    {
+      "name": "Code Rain",
+      "author": "RigCanvas",
+      "description": "Falling green code (video loop) behind a terminal window full of live readings.",
+      "descriptionPl": "Spadający zielony kod (wideo) za oknem terminala pełnym odczytów na żywo.",
+      "file": "CodeRain.tlcd",
+      "thumbnail": "CodeRain.jpg",
+      "tags": [
+        "animated",
+        "retro",
+        "scifi"
+      ]
+    },
+    {
+      "name": "Silent Night",
+      "author": "RigCanvas",
+      "description": "Snow falling on a cabin at night (video loop) and a countdown to Christmas Eve.",
+      "descriptionPl": "Śnieg padający na chatkę nocą (wideo) i odliczanie do Wigilii.",
+      "file": "SilentNight.tlcd",
+      "thumbnail": "SilentNight.jpg",
+      "tags": [
+        "animated",
+        "seasonal",
+        "clock"
+      ]
+    },
+    {
+      "name": "Plasma Pulse",
+      "author": "RigCanvas",
+      "description": "Slowly flowing plasma (video loop) behind a frosted clock and four load rings.",
+      "descriptionPl": "Powoli płynąca plazma (wideo) za matowym zegarem i czterema pierścieniami obciążenia.",
+      "file": "PlasmaPulse.tlcd",
+      "thumbnail": "PlasmaPulse.jpg",
+      "tags": [
+        "animated",
+        "clock",
+        "minimal"
+      ]
+    },
+    {
+      "name": "Abyss",
+      "author": "RigCanvas",
+      "description": "Underwater light ripples (video loop), the GPU temperature as depth and four vertical gauges.",
+      "descriptionPl": "Podwodne refleksy światła (wideo), temperatura GPU jako głębokość i cztery pionowe wskaźniki.",
+      "file": "Abyss.tlcd",
+      "thumbnail": "Abyss.jpg",
+      "tags": [
+        "animated",
+        "nature",
+        "dashboard"
+      ]
+    },
+    {
+      "name": "Frosted Glass",
+      "author": "RigCanvas",
+      "description": "Frosted-glass widgets on a soft sunset blur: clock, weather, CPU / GPU rings, now playing, memory.",
+      "descriptionPl": "Widżety z matowego szkła na miękkim tle zachodu: zegar, pogoda, pierścienie CPU / GPU, muzyka, pamięć.",
+      "file": "FrostedGlass.tlcd",
+      "thumbnail": "FrostedGlass.jpg",
+      "tags": [
+        "dashboard",
+        "weather",
+        "music"
+      ]
+    },
+    {
+      "name": "Neon Bar",
+      "author": "RigCanvas",
+      "description": "Neon signs on a brick wall: glowing clock, temperatures and FPS, a scrolling ticker.",
+      "descriptionPl": "Neony na ceglanej ścianie: świecący zegar, temperatury i FPS, przewijany pasek.",
+      "file": "NeonBar.tlcd",
+      "thumbnail": "NeonBar.jpg",
+      "tags": [
+        "neon",
+        "gaming",
+        "music"
+      ]
+    },
+    {
+      "name": "Notebook",
+      "author": "RigCanvas",
+      "description": "Handwritten notes on ruled paper: the date, a big clock, your PC's readings and a calendar.",
+      "descriptionPl": "Odręczne notatki na papierze w linie: data, duży zegar, odczyty komputera i kalendarz.",
+      "file": "Notebook.tlcd",
+      "thumbnail": "Notebook.jpg",
+      "tags": [
+        "light",
+        "playful",
+        "clock"
+      ]
+    },
+    {
+      "name": "Amber Terminal",
+      "author": "RigCanvas",
+      "description": "An amber CRT terminal with scanlines: readouts, a history plot and a scrolling status line.",
+      "descriptionPl": "Bursztynowy terminal CRT z liniami skanowania: odczyty, wykres historii i przewijany pasek stanu.",
+      "file": "AmberTerminal.tlcd",
+      "thumbnail": "AmberTerminal.jpg",
+      "tags": [
+        "retro",
+        "graphs"
+      ]
+    },
+    {
+      "name": "Green Phosphor",
+      "author": "RigCanvas",
+      "description": "A green phosphor oscilloscope: three live traces for load, temperatures and network.",
+      "descriptionPl": "Zielony oscyloskop: trzy przebiegi na żywo dla obciążenia, temperatur i sieci.",
+      "file": "GreenPhosphor.tlcd",
+      "thumbnail": "GreenPhosphor.jpg",
+      "tags": [
+        "retro",
+        "graphs"
+      ]
+    },
+    {
+      "name": "Vapor Dreams",
+      "author": "RigCanvas",
+      "description": "Pastel vaporwave: album art, a mirrored spectrum, the clock and temperatures.",
+      "descriptionPl": "Pastelowy vaporwave: okładka albumu, lustrzane widmo dźwięku, zegar i temperatury.",
+      "file": "VaporDreams.tlcd",
+      "thumbnail": "VaporDreams.jpg",
+      "tags": [
+        "retro",
+        "music",
+        "playful"
+      ]
+    },
+    {
+      "name": "Deep Space",
+      "author": "RigCanvas",
+      "description": "A violet nebula with an animated reactor core, glass tiles and a load history.",
+      "descriptionPl": "Fioletowa mgławica z animowanym rdzeniem reaktora, szklanymi kafelkami i historią obciążenia.",
+      "file": "DeepSpace.tlcd",
+      "thumbnail": "DeepSpace.jpg",
+      "tags": [
+        "scifi",
+        "dashboard",
+        "gaming"
+      ]
+    },
+    {
+      "name": "Ember Nebula",
+      "author": "RigCanvas",
+      "description": "A fiery nebula behind two segmented temperature arcs that warm up with your hardware.",
+      "descriptionPl": "Ognista mgławica za dwoma segmentowymi łukami temperatur, które rozgrzewają się razem ze sprzętem.",
+      "file": "EmberNebula.tlcd",
+      "thumbnail": "EmberNebula.jpg",
+      "tags": [
+        "scifi",
+        "gaming"
+      ]
+    },
+    {
+      "name": "Carbon Fiber",
+      "author": "RigCanvas",
+      "description": "Race-car dash on carbon weave: shift lights, a tach for GPU load, FPS and a lap timer.",
+      "descriptionPl": "Kokpit wyścigówki na włóknie węglowym: lampki zmiany biegu, obrotomierz obciążenia GPU, FPS i stoper.",
+      "file": "CarbonFiber.tlcd",
+      "thumbnail": "CarbonFiber.jpg",
+      "tags": [
+        "gaming",
+        "dashboard"
+      ]
+    },
+    {
+      "name": "Gunmetal",
+      "author": "RigCanvas",
+      "description": "Brushed steel with an analog clock, needle temperature gauges and engraved plates.",
+      "descriptionPl": "Szczotkowana stal z analogowym zegarem, wskazówkowymi termometrami i grawerowanymi tabliczkami.",
+      "file": "Gunmetal.tlcd",
+      "thumbnail": "Gunmetal.jpg",
+      "tags": [
+        "clock",
+        "dashboard"
+      ]
+    },
+    {
+      "name": "Blueprint",
+      "author": "RigCanvas",
+      "description": "A technical drawing: figures for thermals and load, a spec sheet in monospace.",
+      "descriptionPl": "Rysunek techniczny: rysunki temperatur i obciążenia, specyfikacja pismem maszynowym.",
+      "file": "Blueprint.tlcd",
+      "thumbnail": "Blueprint.jpg",
+      "tags": [
+        "graphs",
+        "minimal"
+      ]
+    },
+    {
+      "name": "Chalk Talk",
+      "author": "RigCanvas",
+      "description": "Chalk on a school blackboard: today's lesson is your PC, with a hand-drawn calendar.",
+      "descriptionPl": "Kreda na szkolnej tablicy: dzisiejsza lekcja to Twój komputer, z ręcznie rysowanym kalendarzem.",
+      "file": "ChalkTalk.tlcd",
+      "thumbnail": "ChalkTalk.jpg",
+      "tags": [
+        "playful",
+        "clock"
+      ]
+    },
+    {
+      "name": "Walnut Desk",
+      "author": "RigCanvas",
+      "description": "A walnut desk with a paper wall clock, a desk calendar and a brass plaque.",
+      "descriptionPl": "Orzechowe biurko z papierowym zegarem ściennym, kalendarzem biurkowym i mosiężną tabliczką.",
+      "file": "WalnutDesk.tlcd",
+      "thumbnail": "WalnutDesk.jpg",
+      "tags": [
+        "elegant",
+        "clock"
+      ]
+    },
+    {
+      "name": "Marble & Gold",
+      "author": "RigCanvas",
+      "description": "White marble and thin gold lines: an elegant serif clock with three readings.",
+      "descriptionPl": "Biały marmur i cienkie złote linie: elegancki szeryfowy zegar z trzema odczytami.",
+      "file": "MarbleGold.tlcd",
+      "thumbnail": "MarbleGold.jpg",
+      "tags": [
+        "light",
+        "elegant",
+        "clock",
+        "minimal"
+      ]
+    },
+    {
+      "name": "Contour",
+      "author": "RigCanvas",
+      "description": "A topographic map: weather, a compass ring for GPU load and an hour-long elevation profile.",
+      "descriptionPl": "Mapa topograficzna: pogoda, kompas obciążenia GPU i godzinny profil wysokości.",
+      "file": "Contour.tlcd",
+      "thumbnail": "Contour.jpg",
+      "tags": [
+        "nature",
+        "weather",
+        "graphs"
+      ]
+    },
+    {
+      "name": "Circuit",
+      "author": "RigCanvas",
+      "description": "A green PCB with gold traces: chips for the clock, load buses and thermals.",
+      "descriptionPl": "Zielona płytka drukowana ze złotymi ścieżkami: układy z zegarem, magistrale obciążenia i temperatury.",
+      "file": "Circuit.tlcd",
+      "thumbnail": "Circuit.jpg",
+      "tags": [
+        "scifi",
+        "dashboard"
+      ]
+    },
+    {
+      "name": "Hive",
+      "author": "RigCanvas",
+      "description": "Glowing hexagon cells full of readings on an amber honeycomb.",
+      "descriptionPl": "Świecące sześciokątne komórki pełne odczytów na bursztynowym plastrze miodu.",
+      "file": "Hive.tlcd",
+      "thumbnail": "Hive.jpg",
+      "tags": [
+        "playful",
+        "dashboard",
+        "gaming"
+      ]
+    },
+    {
+      "name": "Lounge",
+      "author": "RigCanvas",
+      "description": "Warm bokeh lights, a big album cover and a mirrored spectrum. For the music.",
+      "descriptionPl": "Ciepłe rozmyte światła, duża okładka albumu i lustrzane widmo. Do muzyki.",
+      "file": "Lounge.tlcd",
+      "thumbnail": "Lounge.jpg",
+      "tags": [
+        "music"
+      ]
+    },
+    {
+      "name": "City Lights",
+      "author": "RigCanvas",
+      "description": "Blurred city lights at night, a large clock, the date and the weather.",
+      "descriptionPl": "Rozmyte światła miasta nocą, duży zegar, data i pogoda.",
+      "file": "CityLights.tlcd",
+      "thumbnail": "CityLights.jpg",
+      "tags": [
+        "clock",
+        "weather",
+        "minimal"
+      ]
+    },
+    {
+      "name": "Glass Lagoon",
+      "author": "RigCanvas",
+      "description": "Frosted glass tiles with sparklines over a turquoise lagoon, plus a power graph.",
+      "descriptionPl": "Szklane kafelki z mini wykresami nad turkusową laguną i wykres mocy.",
+      "file": "GlassLagoon.tlcd",
+      "thumbnail": "GlassLagoon.jpg",
+      "tags": [
+        "dashboard",
+        "graphs"
+      ]
+    },
+    {
+      "name": "Magma",
+      "author": "RigCanvas",
+      "description": "Cracked glowing lava under dark cards: a segmented GPU heat arc and CPU bars.",
+      "descriptionPl": "Popękana, żarząca się lawa pod ciemnymi kartami: segmentowy łuk temperatury GPU i paski CPU.",
+      "file": "Magma.tlcd",
+      "thumbnail": "Magma.jpg",
+      "tags": [
+        "gaming",
+        "dashboard"
+      ]
+    },
+    {
+      "name": "Pumpkin Hour",
+      "author": "RigCanvas",
+      "description": "Jack-o'-lanterns under a full moon and a countdown to Halloween.",
+      "descriptionPl": "Dynie przy pełni księżyca i odliczanie do Halloween.",
+      "file": "PumpkinHour.tlcd",
+      "thumbnail": "PumpkinHour.jpg",
+      "tags": [
+        "seasonal",
+        "playful",
+        "clock"
+      ]
+    },
+    {
+      "name": "Night City",
+      "author": "RigCanvas",
+      "description": "A neon skyline: huge FPS, the game name and four tiles for temperatures and frame time.",
+      "descriptionPl": "Neonowa panorama miasta: ogromne FPS, nazwa gry i cztery kafelki temperatur i czasu klatki.",
+      "file": "NightCity.tlcd",
+      "thumbnail": "NightCity.jpg",
+      "tags": [
+        "gaming",
+        "neon"
+      ]
+    },
+    {
+      "name": "Isometric",
+      "author": "RigCanvas",
+      "description": "Isometric blocks with flat cards: clock, four load bars, temperatures and power.",
+      "descriptionPl": "Izometryczne bloki z płaskimi kartami: zegar, cztery paski obciążenia, temperatury i moc.",
+      "file": "Isometric.tlcd",
+      "thumbnail": "Isometric.jpg",
+      "tags": [
+        "dashboard"
+      ]
+    },
+    {
+      "name": "Seigaiha",
+      "author": "RigCanvas",
+      "description": "Japanese wave pattern in indigo and gold, a fine analog clock and a reading list.",
+      "descriptionPl": "Japoński wzór fal w indygo i złocie, delikatny zegar analogowy i lista odczytów.",
+      "file": "Seigaiha.tlcd",
+      "thumbnail": "Seigaiha.jpg",
+      "tags": [
+        "elegant",
+        "clock"
+      ]
+    },
+    {
+      "name": "Twilight Peaks",
+      "author": "RigCanvas",
+      "description": "Misty mountains at dusk with the full forecast: now, the next hours and three days.",
+      "descriptionPl": "Mgliste góry o zmierzchu z pełną prognozą: teraz, najbliższe godziny i trzy dni.",
+      "file": "TwilightPeaks.tlcd",
+      "thumbnail": "TwilightPeaks.jpg",
+      "tags": [
+        "weather",
+        "nature"
+      ]
+    },
+    {
+      "name": "Dune",
+      "author": "RigCanvas",
+      "description": "Desert dunes under a soft sky, a big light clock and one line of readings.",
+      "descriptionPl": "Pustynne wydmy pod łagodnym niebem, duży lekki zegar i jedna linia odczytów.",
+      "file": "Dune.tlcd",
+      "thumbnail": "Dune.jpg",
+      "tags": [
+        "nature",
+        "clock",
+        "minimal"
+      ]
+    },
+    {
+      "name": "Daybreak",
+      "author": "RigCanvas",
+      "description": "A sunrise, the clock, today's weather with sunrise and sunset times, and four readings.",
+      "descriptionPl": "Wschód słońca, zegar, dzisiejsza pogoda z godzinami wschodu i zachodu oraz cztery odczyty.",
+      "file": "Daybreak.tlcd",
+      "thumbnail": "Daybreak.jpg",
+      "tags": [
+        "weather",
+        "clock",
+        "nature"
+      ]
+    },
+    {
+      "name": "Glass Cockpit",
+      "author": "RigCanvas",
+      "description": "An aircraft glass cockpit: engine gauge for GPU load, a trend display and readouts.",
+      "descriptionPl": "Szklany kokpit samolotu: wskaźnik silnika jako obciążenie GPU, ekran trendów i odczyty.",
+      "file": "GlassCockpit.tlcd",
+      "thumbnail": "GlassCockpit.jpg",
+      "tags": [
+        "dashboard",
+        "gaming",
+        "graphs"
+      ]
+    },
+    {
+      "name": "Mission Control",
+      "author": "RigCanvas",
+      "description": "A mission-control console with a T-minus countdown to New Year and eight readouts.",
+      "descriptionPl": "Konsola centrum kontroli lotów z odliczaniem T-minus do Nowego Roku i ośmioma odczytami.",
+      "file": "MissionControl.tlcd",
+      "thumbnail": "MissionControl.jpg",
+      "tags": [
+        "scifi",
+        "dashboard",
+        "clock"
+      ]
+    },
+    {
+      "name": "Newsroom",
+      "author": "RigCanvas",
+      "description": "A TV news studio: a headline about your GPU, a market board of loads and a breaking-news ticker.",
+      "descriptionPl": "Studio telewizyjnych wiadomości: nagłówek o Twoim GPU, tablica notowań obciążenia i pasek z pilnymi wiadomościami.",
+      "file": "Newsroom.tlcd",
+      "thumbnail": "Newsroom.jpg",
+      "tags": [
+        "playful",
+        "dashboard",
+        "weather"
+      ]
+    },
+    {
+      "name": "Bauhaus",
+      "author": "RigCanvas",
+      "description": "A Bauhaus poster: primary shapes, a bold clock, readings with red / yellow / blue bars.",
+      "descriptionPl": "Plakat w stylu Bauhausu: podstawowe kształty, wyrazisty zegar, odczyty z czerwonymi, żółtymi i niebieskimi paskami.",
+      "file": "Bauhaus.tlcd",
+      "thumbnail": "Bauhaus.jpg",
+      "tags": [
+        "light",
+        "elegant",
+        "clock"
+      ]
+    },
+    {
+      "name": "Memphis",
+      "author": "RigCanvas",
+      "description": "Memphis-style confetti and chunky cards with hard shadows: clock, temperatures, a load graph.",
+      "descriptionPl": "Konfetti w stylu Memphis i masywne karty z twardym cieniem: zegar, temperatury, wykres obciążenia.",
+      "file": "Memphis.tlcd",
+      "thumbnail": "Memphis.jpg",
+      "tags": [
+        "light",
+        "playful"
+      ]
+    },
+    {
+      "name": "Pocket Console",
+      "author": "RigCanvas",
+      "description": "A four-shade handheld console screen: RIG QUEST stats, segmented bars and a big clock.",
+      "descriptionPl": "Czteroodcieniowy ekran przenośnej konsoli: statystyki RIG QUEST, segmentowe paski i duży zegar.",
+      "file": "PocketConsole.tlcd",
+      "thumbnail": "PocketConsole.jpg",
+      "tags": [
+        "retro",
+        "playful",
+        "gaming"
+      ]
+    },
+    {
+      "name": "Graph Paper",
+      "author": "RigCanvas",
+      "description": "Hand-labelled plots on graph paper: the last hour, 6 hours and 24 hours.",
+      "descriptionPl": "Ręcznie podpisane wykresy na papierze milimetrowym: ostatnia godzina, 6 godzin i 24 godziny.",
+      "file": "GraphPaper.tlcd",
+      "thumbnail": "GraphPaper.jpg",
+      "tags": [
+        "light",
+        "playful",
+        "graphs"
+      ]
+    },
+    {
+      "name": "Morning Paper",
+      "author": "RigCanvas",
+      "description": "An e-ink newspaper: masthead, a big serif clock, a front page about your PC, weather and a calendar.",
+      "descriptionPl": "Gazeta na e-papierze: winieta, duży szeryfowy zegar, pierwsza strona o Twoim komputerze, pogoda i kalendarz.",
+      "file": "MorningPaper.tlcd",
+      "thumbnail": "MorningPaper.jpg",
+      "tags": [
+        "light",
+        "minimal",
+        "weather",
+        "clock"
+      ]
+    },
+    {
+      "name": "Kawaii",
+      "author": "RigCanvas",
+      "description": "Pink polka dots, hearts and rounded cards: clock, temperature rings, mood bar and weather.",
+      "descriptionPl": "Różowe groszki, serduszka i zaokrąglone karty: zegar, pierścienie temperatur, pasek nastroju i pogoda.",
+      "file": "Kawaii.tlcd",
+      "thumbnail": "Kawaii.jpg",
+      "tags": [
+        "light",
+        "playful",
+        "weather"
+      ]
+    },
+    {
+      "name": "Clear Sky",
+      "author": "RigCanvas",
+      "description": "A bright sky-blue weather station: now, details, the next hours and three days.",
+      "descriptionPl": "Jasna, błękitna stacja pogodowa: teraz, szczegóły, najbliższe godziny i trzy dni.",
+      "file": "ClearSky.tlcd",
+      "thumbnail": "ClearSky.jpg",
+      "tags": [
+        "light",
+        "weather"
+      ]
+    },
+    {
+      "name": "Night Stand",
+      "author": "RigCanvas",
+      "description": "A dim red bedside clock that won't light up the room.",
+      "descriptionPl": "Przyciemniony czerwony zegar przy łóżku, który nie rozświetla pokoju.",
+      "file": "NightStand.tlcd",
+      "thumbnail": "NightStand.jpg",
+      "tags": [
+        "clock",
+        "minimal"
+      ]
+    },
+    {
+      "name": "RGB Rainbow",
+      "author": "RigCanvas",
+      "description": "Rainbow color scales on every gauge and bar, for RGB lovers.",
+      "descriptionPl": "Tęczowe skale kolorów na każdym wskaźniku i pasku, dla miłośników RGB.",
+      "file": "RGBRainbow.tlcd",
+      "thumbnail": "RGBRainbow.jpg",
+      "tags": [
+        "gaming",
+        "neon",
+        "dashboard"
+      ]
+    },
+    {
+      "name": "High Contrast",
+      "author": "RigCanvas",
+      "description": "Huge yellow numbers on black, readable from across the room.",
+      "descriptionPl": "Ogromne żółte liczby na czarnym tle, czytelne z drugiego końca pokoju.",
+      "file": "HighContrast.tlcd",
+      "thumbnail": "HighContrast.jpg",
+      "tags": [
+        "minimal",
+        "dashboard"
+      ]
+    },
+    {
+      "name": "Fan Wall",
+      "author": "RigCanvas",
+      "description": "Six needle gauges for every fan and the pump, plus board temperatures.",
+      "descriptionPl": "Sześć wskazówkowych mierników dla wszystkich wentylatorów i pompy oraz temperatury płyty.",
+      "file": "FanWall.tlcd",
+      "thumbnail": "FanWall.jpg",
+      "tags": [
+        "dashboard"
+      ]
+    },
+    {
+      "name": "Daily Log",
+      "author": "RigCanvas",
+      "description": "The last 24 hours at a glance: hourly temperature bars, power, uptime and data used.",
+      "descriptionPl": "Ostatnie 24 godziny w skrócie: słupki temperatur, moc, czas pracy i pobrane dane.",
+      "file": "DailyLog.tlcd",
+      "thumbnail": "DailyLog.jpg",
+      "tags": [
+        "graphs",
+        "dashboard"
+      ]
+    },
+    {
+      "name": "Album Wall",
+      "author": "RigCanvas",
+      "description": "The album cover fills the top half, with the track and a spectrum below.",
+      "descriptionPl": "Okładka albumu wypełnia górną połowę, a pod nią utwór i widmo dźwięku.",
+      "file": "AlbumWall.tlcd",
+      "thumbnail": "AlbumWall.jpg",
+      "tags": [
+        "music"
+      ]
+    },
+    {
+      "name": "Orbit",
+      "author": "RigCanvas",
+      "description": "A circular spectrum around the round album cover, with the clock above.",
+      "descriptionPl": "Okrągłe widmo dźwięku wokół okrągłej okładki albumu, z zegarem nad nim.",
+      "file": "Orbit.tlcd",
+      "thumbnail": "Orbit.jpg",
+      "tags": [
+        "music",
+        "minimal"
+      ]
+    },
+    {
+      "name": "Departures",
+      "author": "RigCanvas",
+      "description": "An airport departure board: each reading is a flight, plus a now-boarding ticker.",
+      "descriptionPl": "Lotniskowa tablica odlotów: każdy odczyt to lot, plus pasek „trwa boarding”.",
+      "file": "Departures.tlcd",
+      "thumbnail": "Departures.jpg",
+      "tags": [
+        "playful",
+        "dashboard",
+        "music"
+      ]
+    },
+    {
+      "name": "Holo HUD",
+      "author": "RigCanvas",
+      "description": "A sci-fi hologram HUD: reactor core, segmented load ring, readouts and traces.",
+      "descriptionPl": "Holograficzny HUD sci-fi: rdzeń reaktora, segmentowy pierścień obciążenia, odczyty i przebiegi.",
+      "file": "HoloHUD.tlcd",
+      "thumbnail": "HoloHUD.jpg",
+      "tags": [
+        "scifi",
+        "gaming",
+        "dashboard"
+      ]
+    },
+    {
+      "name": "Carbon Racing",
+      "author": "RigCanvas",
+      "description": "Race telemetry: a big tach for GPU load, two small dials and a strip of readouts.",
+      "descriptionPl": "Telemetria wyścigowa: duży obrotomierz obciążenia GPU, dwa małe zegary i pasek odczytów.",
+      "file": "CarbonRacing.tlcd",
+      "thumbnail": "CarbonRacing.jpg",
+      "tags": [
+        "gaming",
+        "dashboard"
+      ]
+    },
+    {
+      "name": "Matrix Terminal",
+      "author": "RigCanvas",
+      "description": "A green terminal listing every sensor, with a load plot and a seconds clock.",
+      "descriptionPl": "Zielony terminal z listą wszystkich czujników, wykresem obciążenia i zegarem z sekundami.",
+      "file": "MatrixTerminal.tlcd",
+      "thumbnail": "MatrixTerminal.jpg",
+      "tags": [
+        "retro",
+        "graphs"
+      ]
+    },
+    {
+      "name": "Holo Reactor",
+      "author": "RigCanvas",
+      "description": "An animated reactor core over CPU / GPU cards and a load history.",
+      "descriptionPl": "Animowany rdzeń reaktora nad kartami CPU / GPU i historią obciążenia.",
+      "file": "HoloReactor.tlcd",
+      "thumbnail": "HoloReactor.jpg",
+      "tags": [
+        "scifi",
+        "gaming",
+        "dashboard"
+      ]
+    },
+    {
+      "name": "Deep Ocean",
+      "author": "RigCanvas",
+      "description": "Segmented teal temperature rings, load bars and a power graph on deep blue.",
+      "descriptionPl": "Segmentowe turkusowe pierścienie temperatur, paski obciążenia i wykres mocy na głębokim błękicie.",
+      "file": "DeepOcean.tlcd",
+      "thumbnail": "DeepOcean.jpg",
+      "tags": [
+        "dashboard",
+        "graphs"
+      ]
+    },
+    {
+      "name": "Gamer HUD",
+      "author": "RigCanvas",
+      "description": "Huge FPS, a colorful frame-rate history and GPU / CPU at a glance.",
+      "descriptionPl": "Ogromne FPS, kolorowa historia liczby klatek oraz GPU i CPU w jednym spojrzeniu.",
+      "file": "GamerHUD.tlcd",
+      "thumbnail": "GamerHUD.jpg",
+      "tags": [
+        "gaming",
+        "graphs"
+      ]
+    },
+    {
+      "name": "Amber CRT",
+      "author": "RigCanvas",
+      "description": "An amber monitor: segmented load arcs, a dotted readout list and a big seconds clock.",
+      "descriptionPl": "Bursztynowy monitor: segmentowe łuki obciążenia, kropkowana lista odczytów i duży zegar z sekundami.",
+      "file": "AmberCRT.tlcd",
+      "thumbnail": "AmberCRT.jpg",
+      "tags": [
+        "retro"
+      ]
+    },
+    {
+      "name": "Stealth Graphite",
+      "author": "RigCanvas",
+      "description": "Ten quiet graphite tiles with sparklines for every main reading.",
+      "descriptionPl": "Dziesięć spokojnych grafitowych kafelków z mini wykresami dla wszystkich głównych odczytów.",
+      "file": "StealthGraphite.tlcd",
+      "thumbnail": "StealthGraphite.jpg",
+      "tags": [
+        "minimal",
+        "dashboard"
+      ]
+    },
+    {
+      "name": "Aurora",
+      "author": "RigCanvas",
+      "description": "Clock, now playing and two glowing load rings on a dark teal gradient.",
+      "descriptionPl": "Zegar, odtwarzana muzyka i dwa świecące pierścienie obciążenia na ciemnoturkusowym gradiencie.",
+      "file": "Aurora.tlcd",
+      "thumbnail": "Aurora.jpg",
+      "tags": [
+        "music",
+        "clock"
+      ]
+    },
+    {
+      "name": "Paper White",
+      "author": "RigCanvas",
+      "description": "A calm serif clock and three readings on warm white paper.",
+      "descriptionPl": "Spokojny szeryfowy zegar i trzy odczyty na ciepłym białym papierze.",
+      "file": "PaperWhite.tlcd",
+      "thumbnail": "PaperWhite.jpg",
+      "tags": [
+        "light",
+        "minimal",
+        "clock"
+      ]
+    },
+    {
+      "name": "Swiss Grid",
+      "author": "RigCanvas",
+      "description": "Swiss typography: a red header, four big numbers in a grid and a RAM bar.",
+      "descriptionPl": "Szwajcarska typografia: czerwony nagłówek, cztery duże liczby w siatce i pasek RAM.",
+      "file": "SwissGrid.tlcd",
+      "thumbnail": "SwissGrid.jpg",
+      "tags": [
+        "light",
+        "minimal"
+      ]
+    },
+    {
+      "name": "Sakura",
+      "author": "RigCanvas",
+      "description": "Soft pink rings, thin bars and now playing, like cherry blossom.",
+      "descriptionPl": "Delikatne różowe pierścienie, cienkie paski i odtwarzana muzyka, jak kwiat wiśni.",
+      "file": "Sakura.tlcd",
+      "thumbnail": "Sakura.jpg",
+      "tags": [
+        "light",
+        "music"
+      ]
+    },
+    {
+      "name": "Mint Fresh",
+      "author": "RigCanvas",
+      "description": "Fresh green segmented gauges, power bars and a load graph.",
+      "descriptionPl": "Świeże zielone segmentowe wskaźniki, paski mocy i wykres obciążenia.",
+      "file": "MintFresh.tlcd",
+      "thumbnail": "MintFresh.jpg",
+      "tags": [
+        "light",
+        "dashboard"
+      ]
+    },
+    {
+      "name": "Solar Daylight",
+      "author": "RigCanvas",
+      "description": "A big orange speedometer for the GPU temperature with two load dials.",
+      "descriptionPl": "Duży pomarańczowy prędkościomierz temperatury GPU z dwoma zegarami obciążenia.",
+      "file": "SolarDaylight.tlcd",
+      "thumbnail": "SolarDaylight.jpg",
+      "tags": [
+        "light",
+        "dashboard"
+      ]
+    },
+    {
+      "name": "Lab Instrument",
+      "author": "RigCanvas",
+      "description": "A three-channel chart recorder: GPU temperature, CPU temperature and load.",
+      "descriptionPl": "Trzykanałowy rejestrator: temperatura GPU, temperatura CPU i obciążenie.",
+      "file": "LabInstrument.tlcd",
+      "thumbnail": "LabInstrument.jpg",
+      "tags": [
+        "light",
+        "graphs"
+      ]
+    },
+    {
+      "name": "Sky Dashboard",
+      "author": "RigCanvas",
+      "description": "Rounded white cards with small rings for temperatures, loads, memory and FPS.",
+      "descriptionPl": "Zaokrąglone białe karty z małymi pierścieniami temperatur, obciążenia, pamięci i FPS.",
+      "file": "SkyDashboard.tlcd",
+      "thumbnail": "SkyDashboard.jpg",
+      "tags": [
+        "light",
+        "dashboard"
+      ]
+    },
+    {
+      "name": "Latte",
+      "author": "RigCanvas",
+      "description": "Coffee and cream: a serif clock, now playing and four reading bars.",
+      "descriptionPl": "Kawa ze śmietanką: szeryfowy zegar, odtwarzana muzyka i cztery paski odczytów.",
+      "file": "Latte.tlcd",
+      "thumbnail": "Latte.jpg",
+      "tags": [
+        "light",
+        "music",
+        "elegant"
+      ]
+    },
+    {
+      "name": "Polar Pro",
+      "author": "RigCanvas",
+      "description": "Two blue graph cards for CPU and GPU with power and temperature, plus memory details.",
+      "descriptionPl": "Dwie niebieskie karty z wykresami CPU i GPU z mocą i temperaturą oraz szczegóły pamięci.",
+      "file": "PolarPro.tlcd",
+      "thumbnail": "PolarPro.jpg",
+      "tags": [
+        "light",
+        "graphs"
+      ]
+    },
+    {
+      "name": "Memory & Storage",
+      "author": "RigCanvas",
+      "description": "RAM, VRAM and two drives: usage, temperatures, read / write and a disk graph.",
+      "descriptionPl": "RAM, VRAM i dwa dyski: zajętość, temperatury, odczyt / zapis i wykres dysków.",
+      "file": "MemoryStorage.tlcd",
+      "thumbnail": "MemoryStorage.jpg",
+      "tags": [
+        "panel",
+        "dashboard"
+      ]
+    },
+    {
+      "name": "Network",
+      "author": "RigCanvas",
+      "description": "Download and upload speeds, a bandwidth graph, ping and uptime.",
+      "descriptionPl": "Prędkość pobierania i wysyłania, wykres przepustowości, ping i czas pracy.",
+      "file": "Network.tlcd",
+      "thumbnail": "Network.jpg",
+      "tags": [
+        "panel",
+        "graphs"
+      ]
+    },
+    {
+      "name": "Cooling",
+      "author": "RigCanvas",
+      "description": "Vertical fan bars, coolant / board / chipset temperatures and a temperature graph.",
+      "descriptionPl": "Pionowe paski wentylatorów, temperatury cieczy, płyty i chipsetu oraz wykres temperatur.",
+      "file": "Cooling.tlcd",
+      "thumbnail": "Cooling.jpg",
+      "tags": [
+        "panel",
+        "dashboard"
+      ]
+    },
+    {
+      "name": "Clock & Now Playing",
+      "author": "RigCanvas",
+      "description": "A glowing clock, now playing and four quick readings.",
+      "descriptionPl": "Świecący zegar, odtwarzana muzyka i cztery szybkie odczyty.",
+      "file": "ClockNowPlaying.tlcd",
+      "thumbnail": "ClockNowPlaying.jpg",
+      "tags": [
+        "panel",
+        "clock",
+        "music"
+      ]
+    },
+    {
+      "name": "Focus · GPU Temp",
+      "author": "RigCanvas",
+      "description": "One giant GPU temperature on a segmented color arc, with its history.",
+      "descriptionPl": "Jedna ogromna temperatura GPU na segmentowym kolorowym łuku, z historią.",
+      "file": "FocusGPUTemp.tlcd",
+      "thumbnail": "FocusGPUTemp.jpg",
+      "tags": [
+        "panel",
+        "gaming"
+      ]
+    },
+    {
+      "name": "Focus · CPU Temp",
+      "author": "RigCanvas",
+      "description": "One giant CPU temperature on a segmented color arc, with its history.",
+      "descriptionPl": "Jedna ogromna temperatura CPU na segmentowym kolorowym łuku, z historią.",
+      "file": "FocusCPUTemp.tlcd",
+      "thumbnail": "FocusCPUTemp.jpg",
+      "tags": [
+        "panel",
+        "gaming"
+      ]
+    },
+    {
+      "name": "Focus · FPS",
+      "author": "RigCanvas",
+      "description": "One giant frame rate on a color arc, with a bar history.",
+      "descriptionPl": "Jedna ogromna liczba klatek na kolorowym łuku, z historią w słupkach.",
+      "file": "FocusFPS.tlcd",
+      "thumbnail": "FocusFPS.jpg",
+      "tags": [
+        "panel",
+        "gaming"
+      ]
+    }
+  ]
 }

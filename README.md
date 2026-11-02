@@ -5,7 +5,7 @@
 # RigCanvas
 
 **Free Windows app for the 480×854 USB LCD on Thermalright coolers.**
-It drives the screen directly, with no vendor software, and turns it into your own live dashboard: 30 themes, a visual editor, live sensors, weather, alerts and more.
+It drives the screen directly, with no vendor software, and turns it into your own live dashboard: nearly 90 themes, a visual editor, live sensors, weather, alerts and more.
 
 [![Latest release](https://img.shields.io/github/v/release/vitcox/RigCanvas?style=flat-square&label=download)](https://github.com/vitcox/RigCanvas/releases/latest)
 ![Freeware](https://img.shields.io/badge/license-freeware-success?style=flat-square)
@@ -16,7 +16,7 @@ It drives the screen directly, with no vendor software, and turns it into your o
 
 <br><br>
 
-<img src="screenshots/banner.png" alt="A few of the built-in themes, as they appear on the 480×854 screen">
+<img src="screenshots/banner.png" alt="A few of the themes, as they appear on the 480×854 screen">
 
 </div>
 
@@ -25,7 +25,7 @@ It drives the screen directly, with no vendor software, and turns it into your o
 ## Features
 
 **🎨 Themes**
-- 30 built-in themes (dark, light and info panels) that show *your* hardware names automatically.
+- 9 built-in themes plus **78 more in the online gallery**, one click away: animated video backgrounds, painted art, retro terminals, weather stations, music players, light and dark designs. All of them show *your* hardware names automatically.
 - Pictures, animated GIFs and videos as backgrounds, cropped and converted once so playback stays light.
 - **Playlists** that rotate themes with a cross-fade.
 - **Automatic theme:** switch to a music, game or night theme while something is going on (music playing, a game running, a time window, a sensor above or below a limit, an alert).
@@ -53,6 +53,10 @@ It drives the screen directly, with no vendor software, and turns it into your o
 **Theme library:** live thumbnails, search and categories, one click to put a theme on the screen.
 
 ![Theme library](screenshots/gallery.png)
+
+**Online gallery:** 78 more themes, filtered by tags (animated, gaming, weather, music, light …) and added with one click (Themes tab → **Online**).
+
+![Themes from the online gallery](screenshots/gallery-banner.png)
 
 **Editor:** drag widgets on a live preview; every property in the inspector on the right.
 
@@ -94,6 +98,9 @@ Install [PawnIO](https://pawnio.eu/) and restart the app. **Settings → Telemet
 
 **Does it work with other screens?**
 Only the 480×854 panel (`87AD:70DB`) is supported for now.
+
+**Where do I get more themes?**
+Themes tab → **Online**: the gallery lists every theme with a preview and a description; **Add to library** installs it. A `.tlcd` file from anywhere else can be dropped onto the theme library, or installed from its https link in the same window.
 
 **Where are my themes?**
 In `%AppData%\RigCanvas\Themes` (Themes tab → folder button). Share one with **Export** as a `.tlcd` file.

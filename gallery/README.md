@@ -1,18 +1,16 @@
 # Theme gallery
 
-The app's **Online** button (gallery page) reads `gallery/index.json` from this repository's `main` branch
-(`https://raw.githubusercontent.com/<owner>/<repo>/main/gallery/index.json`). Settings → Paths → "Online theme gallery"
+The app's **Online** button (Themes tab) reads `gallery/index.json` from this repository's `main` branch
+(`https://raw.githubusercontent.com/vitcox/RigCanvas/main/gallery/index.json`). Settings → Paths → "Online theme gallery"
 can point it at any other `index.json` URL or a local folder.
 
-## Adding a theme
+Each theme is a `.tlcd` package (layout, pictures / videos, custom fonts) with a `.jpg` preview next to it. Previews are
+rendered with sample readings; on your screen the themes show your own hardware names and values.
 
-1. In the app, export the theme as a `.tlcd` package (gallery → Export, or the editor's Export button).
-2. Put the `.tlcd` into this folder.
-3. Run `RigCanvas.exe gallery-index gallery` from an administrator terminal: it writes `index.json`
-   and extracts each package's thumbnail next to it as `<name>.png`.
-4. Optionally fill in `description` and `tags` in `index.json`, then commit.
+## Sending a theme
 
-Thumbnails are rendered from your own PC when exporting, so labels such as `{gpu.name}` show your hardware.
+Open an [issue](https://github.com/vitcox/RigCanvas/issues) and attach the theme exported from the app as a `.tlcd` file
+(Themes tab → Export), with a sentence about it.
 
 ## Index format
 
@@ -21,12 +19,13 @@ Thumbnails are rendered from your own PC when exporting, so labels such as `{gpu
   "version": 1,
   "themes": [
     {
-      "name": "Neon Pulse",
-      "author": "someone",
+      "name": "Synthwave Drive",
+      "author": "RigCanvas",
       "description": "Short text shown on the card",
-      "file": "NeonPulse.tlcd",
-      "thumbnail": "NeonPulse.png",
-      "tags": ["dark", "gpu"]
+      "descriptionPl": "Polish card text (optional; the English one is shown when it is empty)",
+      "file": "SynthwaveDrive.tlcd",
+      "thumbnail": "SynthwaveDrive.jpg",
+      "tags": ["animated", "retro", "gaming"]
     }
   ]
 }
@@ -35,3 +34,11 @@ Thumbnails are rendered from your own PC when exporting, so labels such as `{gpu
 `file` and `thumbnail` are relative to `index.json` (or absolute `https://` links). Downloads must be `.tlcd` or `.lcdtheme`
 over HTTPS, at most 200 MB; packages are limited to 500 entries / 512 MB unpacked and only pictures and videos are
 extracted from their `assets/` folder.
+
+Tags become filter chips in the gallery window. The app translates these: `animated`, `dashboard`, `gaming`, `clock`,
+`weather`, `music`, `graphs`, `minimal`, `light`, `retro`, `neon`, `scifi`, `nature`, `elegant`, `playful`, `seasonal`,
+`panel` (full-screen panels for playlists). Other tags are shown as written.
+
+`RigCanvas.exe gallery-index <folder>` (from an administrator terminal) rebuilds `index.json` for the `.tlcd` files in a
+folder. It keeps the descriptions, tags and pictures already in the index, and extracts the package's own preview for a
+new theme.

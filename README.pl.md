@@ -5,7 +5,7 @@
 # RigCanvas
 
 **Darmowy program dla Windows do ekranu LCD 480×854 (USB) w chłodzeniach Thermalright.**
-Obsługuje ekran bezpośrednio, bez oprogramowania producenta, i zamienia go w Twój własny panel na żywo: 30 motywów, edytor wizualny, czujniki, pogoda, alerty i więcej.
+Obsługuje ekran bezpośrednio, bez oprogramowania producenta, i zamienia go w Twój własny panel na żywo: prawie 90 motywów, edytor wizualny, czujniki, pogoda, alerty i więcej.
 
 [![Najnowsza wersja](https://img.shields.io/github/v/release/vitcox/RigCanvas?style=flat-square&label=pobierz)](https://github.com/vitcox/RigCanvas/releases/latest)
 ![Freeware](https://img.shields.io/badge/licencja-freeware-success?style=flat-square)
@@ -15,7 +15,7 @@ Obsługuje ekran bezpośrednio, bez oprogramowania producenta, i zamienia go w T
 
 <br><br>
 
-<img src="screenshots/banner.png" alt="Kilka wbudowanych motywów tak, jak wyglądają na ekranie 480×854">
+<img src="screenshots/banner.png" alt="Kilka motywów tak, jak wyglądają na ekranie 480×854">
 
 </div>
 
@@ -24,7 +24,7 @@ Obsługuje ekran bezpośrednio, bez oprogramowania producenta, i zamienia go w T
 ## Funkcje
 
 **🎨 Motywy**
-- 30 wbudowanych motywów (ciemne, jasne i panele informacyjne), które same pokazują nazwy *Twojego* sprzętu.
+- 9 wbudowanych motywów i **78 kolejnych w galerii online**, jedno kliknięcie dalej: animowane tła wideo, malowane grafiki, retro terminale, stacje pogodowe, odtwarzacze muzyki, jasne i ciemne projekty. Wszystkie same pokazują nazwy *Twojego* sprzętu.
 - Obrazy, animowane GIF-y i filmy jako tło, kadrowane i przerabiane raz, więc odtwarzanie jest lekkie.
 - **Playlisty** zmieniające motywy z płynnym przejściem.
 - **Automatyczna zmiana motywu:** muzyczny, growy albo nocny motyw, gdy coś się dzieje (gra muzyka, uruchomiona gra, przedział godzin, czujnik powyżej lub poniżej progu, alert).
@@ -54,6 +54,10 @@ Program ma polski i angielski interfejs; zrzuty pokazują wersję angielską.
 **Biblioteka motywów:** miniatury na żywo, wyszukiwanie i kategorie, motyw na ekran jednym kliknięciem.
 
 ![Biblioteka motywów](screenshots/gallery.png)
+
+**Galeria online:** 78 kolejnych motywów, filtrowanych tagami (animowane, gry, pogoda, muzyka, jasne …) i dodawanych jednym kliknięciem (zakładka Motywy → **Online**).
+
+![Motywy z galerii online](screenshots/gallery-banner.png)
 
 **Edytor:** przeciąganie widżetów na podglądzie na żywo, wszystkie właściwości w inspektorze po prawej.
 
@@ -95,6 +99,9 @@ Zainstaluj [PawnIO](https://pawnio.eu/) i uruchom program ponownie. **Ustawienia
 
 **Czy działa z innymi ekranami?**
 Na razie obsługiwany jest tylko panel 480×854 (`87AD:70DB`).
+
+**Skąd wziąć więcej motywów?**
+Zakładka Motywy → **Online**: galeria pokazuje każdy motyw z podglądem i opisem, a **Dodaj do biblioteki** go instaluje. Plik `.tlcd` z innego miejsca można przeciągnąć na bibliotekę motywów albo zainstalować z linku https w tym samym oknie.
 
 **Gdzie są moje motywy?**
 W `%AppData%\RigCanvas\Themes` (zakładka Motywy → przycisk folderu). Motyw udostępnisz przyciskiem **Eksport** jako plik `.tlcd`.
