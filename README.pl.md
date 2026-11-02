@@ -91,6 +91,9 @@ Program działa z uprawnieniami administratora, bo wymagają ich czujniki sprzę
 **SmartScreen pokazuje „System Windows ochronił komputer”.**
 Instalator nie jest jeszcze podpisany cyfrowo. Kliknij *Więcej informacji → Uruchom mimo to*.
 
+**Smart App Control zablokował RigCanvas.**
+Smart App Control (Windows 11) blokuje programy bez podpisu cyfrowego, dopóki chmura Microsoftu ich nie zna, a każda nowa wersja zaczyna od zera. RigCanvas nie jest jeszcze podpisany; podpis jest w planach. Do tego czasu nowa wersja może być przez jakiś czas po wydaniu blokowana. To nie jest wirus: każde wydanie jest budowane automatycznie z kodu przez GitHub Actions. Smart App Control nie pozwala dodać wyjątku dla jednego programu, więc możesz odczekać kilka dni i spróbować ponownie albo wyłączyć go w *Zabezpieczenia Windows → Kontrola aplikacji i przeglądarki* (Twoja decyzja).
+
 **Na ekranie LCD nic się nie pojawia.**
 Zamknij TRCC, jeśli działa, potem odłącz i podłącz kabel USB ekranu; program połączy się ponownie w kilka sekund. **Ustawienia → Ekran LCD** pokazują stan połączenia i mają przycisk otwierający log.
 

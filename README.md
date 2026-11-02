@@ -90,6 +90,9 @@ The app runs with administrator rights, because hardware sensors and the USB scr
 **Windows SmartScreen says "Windows protected your PC".**
 The installer isn't code-signed yet. Click *More info → Run anyway*.
 
+**Smart App Control blocked RigCanvas.**
+Smart App Control (Windows 11) blocks apps that aren't code-signed until Microsoft's cloud knows them, and each new version starts again. RigCanvas isn't signed yet; signing is planned. Until then a new version can be blocked for a while after its release. It isn't malware: every release is built automatically from the source by GitHub Actions. Smart App Control has no per-app exception, so you can wait a few days and try again, or turn it off in *Windows Security → App & browser control* (your choice).
+
 **Nothing shows up on the LCD.**
 Close TRCC if it runs, then unplug and replug the screen's USB cable; the app reconnects within a few seconds. **Settings → LCD screen** shows the connection state and has a button to open the log.
 
