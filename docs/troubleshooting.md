@@ -1,6 +1,6 @@
 # Troubleshooting
 
-[← Back to the README](../README.md) · [User guide](user-guide.md) · [Theme guide](themes.md) · [Sensor reference](sensors.md)
+[← Documentation](README.md) · [Getting started](getting-started.md) · [User guide](user-guide.md) · [Theme editor guide](themes.md) · [Sensor reference](sensors.md)
 
 Find your problem below. If it isn't here, see [Reporting a bug](#reporting-a-bug).
 
@@ -25,14 +25,17 @@ RigCanvas isn't code-signed yet, so Windows doesn't know the publisher.
 1. Click **Start LCD screen**. The status bar should show `LCD FPS: … · native USB`.
 2. **Close Thermalright's TRCC** if it runs: only one program can drive the screen. RigCanvas closes it when the screen starts, but TRCC can start again with Windows; turn off its autostart.
 3. Unplug the screen's USB cable and plug it back in. The app retries every few seconds and picks the screen up on its own.
-4. **Settings → LCD screen** shows the connection state (firmware, frames sent, last error) and has **Reconnect** and **Open log** buttons.
+4. **Settings → LCD screen** shows the connection state (firmware, frames sent, reconnects, the last error) and has **Reconnect** and **Open log** buttons:
+
+   ![The connection status under Settings → LCD screen](images/settings-lcd.png)
+
 5. In Device Manager the screen appears under *Universal Serial Bus devices* as `VID_87AD&PID_70DB`, with Windows' built-in WinUSB driver. If it shows with a warning sign, or not at all, check the internal USB cable to the motherboard header.
 6. If TRCC is installed, **Settings → LCD screen → Connection to the screen → Through TRCC** is a fallback that sends frames through TRCC's own background program.
 
 ## CPU temperature or fans show `--`
 CPU temperature / power and motherboard fans need the **PawnIO** driver.
 1. Install [PawnIO](https://pawnio.eu/) (or run `winget install namazso.PawnIO`) and restart the app.
-2. **Settings → Telemetry** shows whether PawnIO was found.
+2. **Settings → Telemetry** shows whether PawnIO was found ("PawnIO (CPU and board sensors): installed ✓").
 3. The app must run as administrator. It asks at startup; if you start it some other way, make sure it's elevated.
 
 Fans other than the CPU fan and the first system fan aren't labelled automatically, because every board names its inputs differently. Assign them in **Settings → Sensor mapping**: each input is listed with its live reading, so you can match it with what the BIOS shows ([details](sensors.md#mapping-board-sensors)).
@@ -47,9 +50,10 @@ Start **RivaTuner Statistics Server** (it comes with MSI Afterburner) before the
 Only players that show up in Windows' media controls (the media box next to the volume) are supported: Spotify, browsers and most modern players. Check that **"Now playing"** is on in **Settings → Telemetry**.
 
 ## Weather doesn't show or shows the wrong place
-- In **Settings → Weather**, click **Search** after typing the place and pick the right match: many names exist in several countries. The current weather appears as a check; then click **Save**.
+- In **Settings → Weather**, click **Search** after typing the place and pick the right match: many names exist in several countries. The current weather appears as a check; then click **Save settings**. ([Weather settings](user-guide.md#weather))
 - The theme needs weather widgets (e.g. *Panel 09 · Weather*).
-- **Settings → Weather** shows the last update or the error, e.g. when Open-Meteo can't be reached.
+- **Settings → Weather** shows the last update or the error. *"Weather error: the weather service is not answering right now (error 503) …"* means Open-Meteo itself is down or busy: nothing to fix on your side. The app keeps showing the last weather it got (up to 12 hours old, also after a restart) and tries again after 30 s, then 1, 2, 4 … up to 15 minutes, so it doesn't flood the service.
+- Saving the weather settings asks again right away.
 
 ## The window doesn't appear
 - With **Start minimized to the tray** on, the app starts as a tray icon only. Double-click the icon, or start the app again: a second start brings up the window of the one already running.

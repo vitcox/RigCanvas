@@ -1,6 +1,6 @@
 # Sensor reference
 
-[← Back to the README](../README.md) · [Theme guide](themes.md) · [User guide](user-guide.md) · [Troubleshooting](troubleshooting.md)
+[← Documentation](README.md) · [Getting started](getting-started.md) · [User guide](user-guide.md) · [Theme editor guide](themes.md) · [Troubleshooting](troubleshooting.md)
 
 Every value a theme can show has a **sensor key**. You pick it in the editor (the *Sensor* field of a widget, grouped by category), or type it into label text as a [placeholder](themes.md#placeholders): `CPU {cpu.temp}°C`.
 
@@ -15,6 +15,16 @@ What's available depends on your hardware and on what's running. A value that ca
 | [Open-Meteo](https://open-meteo.com/) | Weather | Type a place in **Settings → Weather** |
 | RivaTuner Statistics Server | Game FPS | Optional; must be running (it comes with MSI Afterburner) |
 | HWiNFO from Thermalright TRCC | GPU 16-pin / PCIe power, named board fans | Optional; only if TRCC is installed (**Settings → TRCC compatibility**) |
+
+### Settings → Telemetry
+
+<img src="images/settings-telemetry.png" align="right" width="380" alt="Telemetry settings">
+
+- **Sensor refresh:** how often readings update (800 ms by default). Faster costs a little more CPU.
+- **RivaTuner Statistics Server**, **"Now playing"** and **Ping** turn those sources on.
+- The lines below say what was found: whether PawnIO is installed, how many sensors HWiNFO reports, whether RTSS has data.
+
+<br clear="right">
 
 ## Hardware names (text)
 
@@ -67,7 +77,12 @@ Use these in labels (`{gpu.model|upper}`) instead of typing your own model, so a
 | `fan.chassis2`, `fan.chassis3` | RPM | Need HWiNFO or a mapping |
 
 ### Mapping board sensors
-Motherboards name their inputs generically (`Fan #1`, `Temperature #2` …), and which header is which differs from board to board. **Settings → Sensor mapping** lets you point every key in the table above at a specific input; each input is listed with its live reading, so you can match it against what the BIOS shows. A mapping wins over HWiNFO and the automatic guesses.
+
+<img src="images/settings-sensor-mapping.png" align="right" width="380" alt="Sensor mapping">
+
+Motherboards name their inputs generically (`Fan #1`, `Temperature #2` …), and which header is which differs from board to board. **Settings → Sensor mapping** lets you point every key in the table above at a specific input; each input is listed with its live reading, so you can match it against what the BIOS shows. A mapping wins over HWiNFO and the automatic guesses. *(automatic)* keeps the app's own choice.
+
+<br clear="right">
 
 ## Memory and storage
 

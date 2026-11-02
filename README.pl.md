@@ -94,10 +94,13 @@ Program działa z uprawnieniami administratora, bo wymagają ich czujniki sprzę
 
 Poradniki są po angielsku. Nazwy przycisków i ustawień odpowiadają w nich angielskiej wersji interfejsu.
 
+Wszystkie poradniki ze zrzutami ekranu: **[dokumentacja](docs/README.md)**.
+
 | Poradnik | Co w nim jest |
 |---|---|
+| [Pierwsze kroki](docs/getting-started.md) | Wymagania, instalacja, kreator pierwszego uruchomienia krok po kroku, pierwszy motyw na ekranie |
 | [Przewodnik użytkownika](docs/user-guide.md) | Motywy i kategorie, playlisty, automatyczna zmiana motywu, alerty, pogoda, jasność, uruchamianie, aktualizacje, kopie zapasowe |
-| [Poradnik motywów](docs/themes.md) | Edytor krok po kroku: widżety, placeholdery, kolory, czcionki, szablony, udostępnianie paczek `.tlcd` |
+| [Poradnik edytora motywów](docs/themes.md) | Oprowadzenie po edytorze, każdy widżet z obrazkiem, kolory zależne od wartości, warunki, placeholdery, czcionki, udostępnianie |
 | [Lista czujników](docs/sensors.md) | Każdy klucz czujnika (CPU, GPU, wentylatory, dyski, sieć, gry, muzyka, pogoda) i skąd pochodzi |
 | [Rozwiązywanie problemów](docs/troubleshooting.md) | Pusty ekran, odczyty `--`, ostrzeżenia Windows, brak FPS lub pogody, reset ustawień |
 

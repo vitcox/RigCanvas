@@ -91,10 +91,13 @@ The app runs with administrator rights, because hardware sensors and the USB scr
 
 ## Guides
 
+All guides, with screenshots: **[documentation](docs/README.md)**.
+
 | Guide | What's in it |
 |---|---|
+| [Getting started](docs/getting-started.md) | Requirements, installing, the first-start wizard step by step, the first theme on the screen |
 | [User guide](docs/user-guide.md) | Themes and categories, playlists, automatic theme, alerts, weather, brightness, startup, updates, backups |
-| [Theme guide](docs/themes.md) | The editor step by step: widgets, placeholders, colors, fonts, templates, sharing `.tlcd` packages |
+| [Theme editor guide](docs/themes.md) | A tour of the editor, every widget with a picture, colors that follow the value, conditions, placeholders, fonts, sharing |
 | [Sensor reference](docs/sensors.md) | Every sensor key (CPU, GPU, fans, disks, network, games, music, weather) and where it comes from |
 | [Troubleshooting](docs/troubleshooting.md) | Blank screen, `--` readings, Windows warnings, missing FPS or weather, starting over |
 
