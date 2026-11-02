@@ -45,7 +45,7 @@ Obsługuje ekran bezpośrednio, bez oprogramowania producenta, i zamienia go w T
 - Alerty na ekranie LCD i jako powiadomienie Windows (za gorące GPU, stojąca pompa…).
 - Jasność, automatyczne przyciemnianie w nocy, wygaszanie przy zablokowanym lub uśpionym PC.
 - Ikona w zasobniku, start z Windows, wbudowane aktualizacje, kreator pierwszego uruchomienia.
-- Polski i angielski; 13 motywów interfejsu (Catppuccin, Nord, Dracula, Tokyo Night, Gruvbox, Rosé Pine, Solarized …), dowolny kolor akcentu, opcjonalnie zgodnie z jasnym / ciemnym trybem Windows.
+- Polski i angielski; 18 motywów interfejsu (Catppuccin, Nord, Dracula, Tokyo Night, Gruvbox, Rosé Pine, Solarized …), dowolny kolor akcentu, opcjonalnie zgodnie z jasnym / ciemnym trybem Windows.
 
 ## Zrzuty ekranu
 
@@ -67,7 +67,7 @@ Nowe motywy są oznaczone i wyświetlane jako pierwsze; animowane odtwarzają po
 
 ![Edytor motywów](screenshots/editor.png)
 
-**Ustawienia:** ekran, czujniki, uruchamianie, pogoda, alerty i automatyczna zmiana motywu. Sam program ma 13 motywów interfejsu (tu Catppuccin Mocha), dowolny kolor akcentu i może podążać za jasnym / ciemnym trybem Windows.
+**Ustawienia:** ekran, czujniki, uruchamianie, pogoda, alerty i automatyczna zmiana motywu. Sam program ma 18 motywów interfejsu (tu Catppuccin Mocha), dowolny kolor akcentu i może podążać za jasnym / ciemnym trybem Windows.
 
 ![Ustawienia](screenshots/settings.png)
 

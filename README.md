@@ -46,7 +46,7 @@ It drives the screen directly, with no vendor software, and turns it into your o
 - Alerts on the LCD and as a Windows notification (GPU too hot, pump stopped…).
 - Brightness, automatic night dimming, screen off when the PC is locked or asleep.
 - Tray icon, start with Windows, built-in updates, first-start wizard.
-- English and Polish; 13 interface themes (Catppuccin, Nord, Dracula, Tokyo Night, Gruvbox, Rosé Pine, Solarized …), any accent color, following Windows light / dark mode if you like.
+- English and Polish; 18 interface themes (Catppuccin, Nord, Dracula, Tokyo Night, Gruvbox, Rosé Pine, Solarized …), any accent color, following Windows light / dark mode if you like.
 
 ## Screenshots
 
@@ -66,7 +66,7 @@ New themes are marked and listed first; animated ones play a preview when you po
 
 ![Theme editor](screenshots/editor.png)
 
-**Settings:** screen, sensors, startup, weather, alerts and automatic theme switching. The app itself comes in 13 interface themes (here Catppuccin Mocha), with any accent color, and can follow Windows light / dark mode.
+**Settings:** screen, sensors, startup, weather, alerts and automatic theme switching. The app itself comes in 18 interface themes (here Catppuccin Mocha), with any accent color, and can follow Windows light / dark mode.
 
 ![Settings](screenshots/settings.png)
 

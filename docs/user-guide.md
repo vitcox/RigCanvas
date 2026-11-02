@@ -51,7 +51,7 @@ The right column belongs to the selected theme:
 
 **Online** (Themes tab) lists the community gallery: 90+ themes with video backgrounds, music visualizers, weather stations, retro terminals and more.
 
-- **Filter chips** narrow the list by tag (Animated, Gaming, Clocks, Weather, Music …). **★ New** shows the themes added in the last 30 days; they also come first and carry a **NEW** badge.
+- **Filter chips** narrow the list by tag (Animated, Gaming, Clocks, Weather, Music …). **★ New** shows the themes that are new to you: added to the gallery in the last 30 days, not in your library yet, and not already listed the last time you opened the gallery. They come first and carry a **NEW** badge, which stays for the whole visit and is gone the next time.
 - **▶ on a card** means the theme moves: point at the picture to play a short preview.
 - **Add to library** downloads the theme and selects it in your library. **Hide the ones in the library** shows only the themes you don't have yet.
 - **Link** (at the bottom) installs a `.tlcd` or `.lcdtheme` from any https address, e.g. a file someone shared.
@@ -154,9 +154,10 @@ The data comes from [Open-Meteo](https://open-meteo.com/): no account or key, an
 
 **Settings → Appearance and language** changes the look of the app itself (the LCD themes are separate).
 
-- **Interface theme:** Dark, Light, OLED Black, Catppuccin (Mocha, Macchiato, Frappé, Latte), Nord, Dracula, Tokyo Night, Gruvbox Dark, Rosé Pine, Solarized Light. The list shows each one's colors; the window switches as soon as you pick.
+- **Interface theme:** Dark, Light, OLED Black, Catppuccin (Mocha, Macchiato, Frappé, Latte), Nord, Dracula, Tokyo Night, Gruvbox Dark, Rosé Pine, Solarized Light, and five RigCanvas originals: Atelier, Blueprint Night, Neon Nocturne, Sumi and Moss & Clay. The list shows each one's colors; the window switches as soon as you pick.
 - **Follow Windows light / dark mode:** choose one theme for light mode and one for dark mode, e.g. Solarized Light and Catppuccin Mocha. The app switches with Windows (Settings → Personalization → Colors).
-- **Accent color:** the color of buttons, selections, sliders and switches, over any theme. It's adjusted to stay readable on light and dark themes.
+- **Accent color:** the color of buttons, selections, sliders and switches, over any theme. It's adjusted to stay readable on light and dark themes. **From the theme on the LCD** takes the leading color of the theme being shown, so the app and the screen match as themes change.
+- **Focus mode: only the accent has color:** success, warning and guide colors turn into the theme's greys, for a calmer window; errors stay red.
 - **Language:** English or Polski, switched live.
 
 **Save settings** keeps your choice; **Discard changes** goes back.
