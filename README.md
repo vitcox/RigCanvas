@@ -4,7 +4,7 @@
 
 # RigCanvas
 
-**Free Windows app for the 480×854 USB LCD on Thermalright coolers.**
+**Free Windows app for the 480×854 USB LCD on Thermalright coolers, such as the Peerless Assassin 120 Vision MAX ARGB, and an unofficial alternative to Thermalright's TRCC software.**
 It drives the screen directly, with no vendor software, and turns it into your own live dashboard: nearly 90 themes, a visual editor, live sensors, weather, alerts and more.
 
 [![Latest release](https://img.shields.io/github/v/release/vitcox/RigCanvas?style=flat-square&label=download)](https://github.com/vitcox/RigCanvas/releases/latest)
@@ -70,7 +70,7 @@ It drives the screen directly, with no vendor software, and turns it into your o
 
 ### Requirements
 - Windows 10 or 11, 64-bit.
-- A Thermalright cooler with the 480×854 USB LCD (USB ID `87AD:70DB`).
+- A Thermalright cooler with the 480×854 USB LCD (USB ID `87AD:70DB`). Tested on the **Thermalright Peerless Assassin 120 Vision MAX ARGB**; other coolers with the same screen should work too.
 - Recommended: the free **[PawnIO](https://pawnio.eu/)** driver (`winget install namazso.PawnIO`). Without it the CPU temperature / power and motherboard fans can't be read. It's a separate project, so it isn't bundled; setup offers the download page if it's missing.
 - Optional: [RivaTuner Statistics Server](https://www.guru3d.com/download/rtss-rivatuner-statistics-server-download/) (comes with MSI Afterburner) for game FPS.
 - Thermalright TRCC is **not** needed. If it's installed, close it: only one program can drive the screen.
@@ -95,6 +95,9 @@ Close TRCC if it runs, then unplug and replug the screen's USB cable; the app re
 
 **CPU temperature shows `--`.**
 Install [PawnIO](https://pawnio.eu/) and restart the app. **Settings → Telemetry** shows whether it was found.
+
+**Can it replace TRCC?**
+For the screen, yes. RigCanvas drives the LCD on its own, with its own themes, editor and sensors, so TRCC doesn't need to be installed or running. It is unofficial and not made or supported by Thermalright.
 
 **Does it work with other screens?**
 Only the 480×854 panel (`87AD:70DB`) is supported for now.

@@ -4,7 +4,7 @@
 
 # RigCanvas
 
-**Darmowy program dla Windows do ekranu LCD 480×854 (USB) w chłodzeniach Thermalright.**
+**Darmowy program dla Windows do ekranu LCD 480×854 (USB) w chłodzeniach Thermalright, np. Peerless Assassin 120 Vision MAX ARGB. To nieoficjalny zamiennik programu TRCC od Thermalright.**
 Obsługuje ekran bezpośrednio, bez oprogramowania producenta, i zamienia go w Twój własny panel na żywo: prawie 90 motywów, edytor wizualny, czujniki, pogoda, alerty i więcej.
 
 [![Najnowsza wersja](https://img.shields.io/github/v/release/vitcox/RigCanvas?style=flat-square&label=pobierz)](https://github.com/vitcox/RigCanvas/releases/latest)
@@ -71,7 +71,7 @@ Program ma polski i angielski interfejs; zrzuty pokazują wersję angielską.
 
 ### Wymagania
 - Windows 10 lub 11, 64-bit.
-- Chłodzenie Thermalright z ekranem LCD 480×854 na USB (identyfikator `87AD:70DB`).
+- Chłodzenie Thermalright z ekranem LCD 480×854 na USB (identyfikator `87AD:70DB`). Przetestowane na **Thermalright Peerless Assassin 120 Vision MAX ARGB**; inne chłodzenia z tym samym ekranem też powinny działać.
 - Zalecany darmowy sterownik **[PawnIO](https://pawnio.eu/)** (`winget install namazso.PawnIO`). Bez niego nie da się odczytać temperatury i mocy CPU ani wentylatorów płyty. To osobny projekt, więc nie jest dołączony; instalator podpowie stronę pobierania.
 - Opcjonalnie: [RivaTuner Statistics Server](https://www.guru3d.com/download/rtss-rivatuner-statistics-server-download/) (jest w MSI Afterburner) dla FPS w grach.
 - Program Thermalright TRCC **nie** jest potrzebny. Jeśli jest zainstalowany, zamknij go: ekranem może sterować tylko jeden program.
@@ -96,6 +96,9 @@ Zamknij TRCC, jeśli działa, potem odłącz i podłącz kabel USB ekranu; progr
 
 **Temperatura CPU pokazuje `--`.**
 Zainstaluj [PawnIO](https://pawnio.eu/) i uruchom program ponownie. **Ustawienia → Telemetria** pokazują, czy został wykryty.
+
+**Czy zastąpi TRCC?**
+Jeśli chodzi o ekran, tak. RigCanvas sam obsługuje LCD, ma własne motywy, edytor i czujniki, więc TRCC nie musi być zainstalowany ani uruchomiony. To program nieoficjalny, nietworzony ani niewspierany przez Thermalright.
 
 **Czy działa z innymi ekranami?**
 Na razie obsługiwany jest tylko panel 480×854 (`87AD:70DB`).
