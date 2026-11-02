@@ -12,7 +12,7 @@ It drives the screen directly, with no vendor software, and turns it into your o
 ![Platform](https://img.shields.io/badge/Windows%2010%20%7C%2011-x64-0078D4?style=flat-square)
 ![Languages](https://img.shields.io/badge/UI-English%20%7C%20Polski-informational?style=flat-square)
 
-[**Download**](https://github.com/vitcox/RigCanvas/releases/latest) · [Features](#features) · [Screenshots](#screenshots) · [Getting started](#getting-started) · [FAQ](#faq) · [Is it safe?](#is-it-safe) · [Report a problem](https://github.com/vitcox/RigCanvas/issues) · [Polski](README.pl.md)
+[**Download**](https://github.com/vitcox/RigCanvas/releases/latest) · [Features](#features) · [Screenshots](#screenshots) · [Getting started](#getting-started) · [Guides](#guides) · [FAQ](#faq) · [Is it safe?](#is-it-safe) · [Report a problem](https://github.com/vitcox/RigCanvas/issues) · [Polski](README.pl.md)
 
 <br><br>
 
@@ -85,6 +85,15 @@ The app runs with administrator rights, because hardware sensors and the USB scr
 ### Uninstall
 **Windows Settings → Apps → RigCanvas → Uninstall.** The uninstaller asks whether to keep your settings and themes (`%AppData%\RigCanvas`).
 
+## Guides
+
+| Guide | What's in it |
+|---|---|
+| [User guide](docs/user-guide.md) | Themes and categories, playlists, automatic theme, alerts, weather, brightness, startup, updates, backups |
+| [Theme guide](docs/themes.md) | The editor step by step: widgets, placeholders, colors, fonts, templates, sharing `.tlcd` packages |
+| [Sensor reference](docs/sensors.md) | Every sensor key (CPU, GPU, fans, disks, network, games, music, weather) and where it comes from |
+| [Troubleshooting](docs/troubleshooting.md) | Blank screen, `--` readings, Windows warnings, missing FPS or weather, starting over |
+
 ## FAQ
 
 **Windows SmartScreen says "Windows protected your PC".**
@@ -118,12 +127,12 @@ Open an [issue](https://github.com/vitcox/RigCanvas/issues) and attach the expor
 
 - **Virus scan:** the installer's download link was checked by 93 engines on VirusTotal with no detections ([report](https://www.virustotal.com/gui/url/9405c2ebf468c5af583cd37dd9ad4d8c48f3e9508d06a657ef928ac61e20342c)).
 - **Why administrator rights:** reading hardware sensors (LibreHardwareMonitor with the PawnIO driver) and talking to the USB screen both need them. RigCanvas installs no drivers of its own.
-- **No telemetry:** nothing about you or your PC is sent anywhere. The app only goes online for the update check and the online theme gallery (GitHub), and for weather if you turn it on (Open-Meteo, only the place you typed).
+- **No telemetry:** nothing about you or your PC is sent anywhere. The app goes online for the update check and the online theme gallery (GitHub), plus weather (Open-Meteo, only the place you typed) and the ping sensor (the host you set) if you turn them on. Nothing else.
 - **SmartScreen warning:** the installer isn't code-signed yet, so Windows shows "unknown publisher". That is about the missing certificate, not the contents.
 
 ## Support
 
-Bugs and ideas: [GitHub Issues](https://github.com/vitcox/RigCanvas/issues). Please include the app version (Settings → Updates and about) and, for screen problems, the log (Settings → LCD screen → Open log).
+Check [Troubleshooting](docs/troubleshooting.md) first. Bugs and ideas: [GitHub Issues](https://github.com/vitcox/RigCanvas/issues). Please include the app version (Settings → Updates and about) and, for screen problems, the log (Settings → LCD screen → Open log).
 
 ## License
 

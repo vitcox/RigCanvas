@@ -11,7 +11,7 @@ Obsługuje ekran bezpośrednio, bez oprogramowania producenta, i zamienia go w T
 ![Freeware](https://img.shields.io/badge/licencja-freeware-success?style=flat-square)
 ![Platforma](https://img.shields.io/badge/Windows%2010%20%7C%2011-x64-0078D4?style=flat-square)
 
-[**Pobierz**](https://github.com/vitcox/RigCanvas/releases/latest) · [Funkcje](#funkcje) · [Zrzuty ekranu](#zrzuty-ekranu) · [Pierwsze kroki](#pierwsze-kroki) · [FAQ](#faq) · [Czy to bezpieczne?](#czy-to-bezpieczne) · [Zgłoś problem](https://github.com/vitcox/RigCanvas/issues) · [English](README.md)
+[**Pobierz**](https://github.com/vitcox/RigCanvas/releases/latest) · [Funkcje](#funkcje) · [Zrzuty ekranu](#zrzuty-ekranu) · [Pierwsze kroki](#pierwsze-kroki) · [Poradniki](#poradniki) · [FAQ](#faq) · [Czy to bezpieczne?](#czy-to-bezpieczne) · [Zgłoś problem](https://github.com/vitcox/RigCanvas/issues) · [English](README.md)
 
 <br><br>
 
@@ -86,6 +86,17 @@ Program działa z uprawnieniami administratora, bo wymagają ich czujniki sprzę
 ### Odinstalowanie
 **Ustawienia Windows → Aplikacje → RigCanvas → Odinstaluj.** Deinstalator zapyta, czy zachować ustawienia i motywy (`%AppData%\RigCanvas`).
 
+## Poradniki
+
+Poradniki są po angielsku. Nazwy przycisków i ustawień odpowiadają w nich angielskiej wersji interfejsu.
+
+| Poradnik | Co w nim jest |
+|---|---|
+| [Przewodnik użytkownika](docs/user-guide.md) | Motywy i kategorie, playlisty, automatyczna zmiana motywu, alerty, pogoda, jasność, uruchamianie, aktualizacje, kopie zapasowe |
+| [Poradnik motywów](docs/themes.md) | Edytor krok po kroku: widżety, placeholdery, kolory, czcionki, szablony, udostępnianie paczek `.tlcd` |
+| [Lista czujników](docs/sensors.md) | Każdy klucz czujnika (CPU, GPU, wentylatory, dyski, sieć, gry, muzyka, pogoda) i skąd pochodzi |
+| [Rozwiązywanie problemów](docs/troubleshooting.md) | Pusty ekran, odczyty `--`, ostrzeżenia Windows, brak FPS lub pogody, reset ustawień |
+
 ## FAQ
 
 **SmartScreen pokazuje „System Windows ochronił komputer”.**
@@ -119,12 +130,12 @@ Otwórz [zgłoszenie](https://github.com/vitcox/RigCanvas/issues) i dołącz wye
 
 - **Skan antywirusowy:** link do pobrania instalatora sprawdziło 93 silników w VirusTotal, bez żadnych wykryć ([raport](https://www.virustotal.com/gui/url/9405c2ebf468c5af583cd37dd9ad4d8c48f3e9508d06a657ef928ac61e20342c)).
 - **Po co uprawnienia administratora:** wymagają ich odczyt czujników sprzętowych (LibreHardwareMonitor ze sterownikiem PawnIO) i komunikacja z ekranem USB. RigCanvas nie instaluje własnych sterowników.
-- **Brak telemetrii:** program nie wysyła żadnych danych o Tobie ani o komputerze. Łączy się z internetem tylko w celu sprawdzenia aktualizacji i po galerię motywów online (GitHub), a po pogodę tylko gdy ją włączysz (Open-Meteo, wyłącznie wpisana miejscowość).
+- **Brak telemetrii:** program nie wysyła żadnych danych o Tobie ani o komputerze. Łączy się z internetem tylko w celu sprawdzenia aktualizacji i po galerię motywów online (GitHub), a tylko jeśli je włączysz, także po pogodę (Open-Meteo, wyłącznie wpisana miejscowość) i dla czujnika ping (wskazany przez Ciebie host).
 - **Ostrzeżenie SmartScreen:** instalator nie jest jeszcze podpisany cyfrowo, więc Windows pokazuje „nieznany wydawca”. Dotyczy to braku certyfikatu, nie zawartości.
 
 ## Wsparcie
 
-Błędy i pomysły: [GitHub Issues](https://github.com/vitcox/RigCanvas/issues). Podaj wersję programu (Ustawienia → Aktualizacje i informacje), a przy problemach z ekranem dołącz log (Ustawienia → Ekran LCD → Otwórz log).
+Najpierw zajrzyj do [rozwiązywania problemów](docs/troubleshooting.md). Błędy i pomysły: [GitHub Issues](https://github.com/vitcox/RigCanvas/issues). Podaj wersję programu (Ustawienia → Aktualizacje i informacje), a przy problemach z ekranem dołącz log (Ustawienia → Ekran LCD → Otwórz log).
 
 ## Licencja
 
