@@ -12,7 +12,7 @@ It drives the screen directly, with no vendor software, and turns it into your o
 ![Platform](https://img.shields.io/badge/Windows%2010%20%7C%2011-x64-0078D4?style=flat-square)
 ![Languages](https://img.shields.io/badge/UI-English%20%7C%20Polski-informational?style=flat-square)
 
-[**Download**](https://github.com/vitcox/RigCanvas/releases/latest) · [Features](#features) · [Screenshots](#screenshots) · [Getting started](#getting-started) · [FAQ](#faq) · [Report a problem](https://github.com/vitcox/RigCanvas/issues) · [Polski](README.pl.md)
+[**Download**](https://github.com/vitcox/RigCanvas/releases/latest) · [Features](#features) · [Screenshots](#screenshots) · [Getting started](#getting-started) · [FAQ](#faq) · [Is it safe?](#is-it-safe) · [Report a problem](https://github.com/vitcox/RigCanvas/issues) · [Polski](README.pl.md)
 
 <br><br>
 
