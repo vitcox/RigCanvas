@@ -18,14 +18,24 @@ The **Start LCD screen** button (also in the tray menu) sends the selected theme
 
 ## First start
 
-A short wizard checks that the screen is connected and that [PawnIO](https://pawnio.eu/) is installed (it's needed for the CPU temperature and motherboard fans), then lets you choose the language, a first theme, how the app starts (with Windows, in the tray) and, optionally, a place for the weather. Everything it sets can be changed later in **Settings**, and **Settings → Updates and about → Setup wizard…** runs it again.
+A short wizard checks that the screen is connected and that [PawnIO](https://pawnio.eu/) is installed (it's needed for the CPU temperature and motherboard fans), then lets you choose the language, the [interface theme](#interface-theme-and-accent-color), a first theme, how the app starts (with Windows, in the tray) and, optionally, a place for the weather. Everything it sets can be changed later in **Settings**, and **Settings → Updates and about → Setup wizard…** runs it again.
+
+## Interface theme and accent color
+
+**Settings → Appearance and language** changes how the app itself looks (the LCD themes are separate):
+
+- **Interface theme:** Dark, Light, OLED Black, Catppuccin (Mocha, Macchiato, Frappé, Latte), Nord, Dracula, Tokyo Night, Gruvbox Dark, Rosé Pine or Solarized Light. The list shows each theme's colors, and the window switches as soon as you pick one.
+- **Follow Windows light / dark mode:** instead of one theme, choose one *When Windows is light* and one *When Windows is dark*, e.g. Solarized Light and Catppuccin Mocha. The app switches as soon as Windows does (Settings → Personalization → Colors in Windows).
+- **Accent color:** the color of buttons, selections, sliders and switches, on top of any interface theme. *From the interface theme* keeps the theme's own accent. Accents are adjusted automatically so text stays readable on light and dark themes.
+
+Click **Save settings** to keep your choice; **Discard changes** goes back.
 
 ## Choosing a theme
 
 Click a theme in the **Themes** tab to show it on the LCD. The library has:
 
 - **Search** by name, and a **category** list: Dark, Light, Panels, Single value, Mine, plus your own folders. To create a folder, type a new name in a theme's *Category* box.
-- **Online**: the online gallery with nearly 80 more themes. Filter them by tag, then **Add to library**. **Hide the ones in the library** shows only themes you don't have yet.
+- **Online**: the online gallery with over 90 more themes. Filter them by tag, then **Add to library**. **Hide the ones in the library** shows only themes you don't have yet.
 - **Duplicate** before you change a built-in theme a lot, so the original stays.
 - **Export** saves a theme as a `.tlcd` package to share. To install a `.tlcd` file, drop it onto the library.
 
@@ -95,6 +105,18 @@ You can also type coordinates as `lat, lon`. Weather comes from [Open-Meteo](htt
 - **Minimize to the tray** and **The ✕ button hides to the tray** keep the app running in the background.
 
 Double-click the tray icon, or start the app again, to bring the window back. Only one copy runs at a time.
+
+## Keyboard shortcuts
+
+**Settings → Keyboard shortcuts** (off until you turn them on) work anywhere in Windows, also in a game and while the app is in the tray:
+
+| Action | Default |
+|---|---|
+| Next theme (or the next playlist item) | Ctrl+Alt+PageDown |
+| Previous theme | Ctrl+Alt+PageUp |
+| Turn the LCD off / on | Ctrl+Alt+End |
+
+To change one, click its box and press the keys; Backspace clears it. With a single theme, next / previous go through the library as the category filter shows it. If another program already uses a combination, the settings page says so.
 
 ## Updates
 

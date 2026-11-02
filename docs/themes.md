@@ -69,6 +69,18 @@ With nothing selected (Esc), the inspector edits the theme itself:
 - **How the theme appears on the LCD:** instantly, fading from black, or revealed from the top.
 - **Grid:** a decorative grid drawn on the LCD, with its own color and spacing. This is separate from the editor's *Snap to grid*, which is never sent to the screen.
 
+## Showing a widget only sometimes
+
+The **Visibility** section of the inspector hides a widget until a condition is met, on the LCD and in the preview:
+
+| Condition | Example |
+|---|---|
+| While a sensor is above / below a limit | A red "HOT" panel while `gpu.temp` is above 85 |
+| While a sensor has a reading | An FPS card only while a game runs (`game.fps`), a music card only while something plays (`media.title`) |
+| While a sensor has no reading | A big clock that fills the space when no game runs |
+
+Put two widgets in the same place with opposite conditions and they take turns. A hidden widget can still be selected in the layer list; the inspector says whether it shows right now.
+
 ## Placeholders
 Label and ticker text can contain `{sensor.key}` tokens, replaced with live values:
 

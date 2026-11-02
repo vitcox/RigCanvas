@@ -5,7 +5,7 @@
 # RigCanvas
 
 **Free Windows app for the 480×854 USB LCD on Thermalright coolers, such as the Peerless Assassin 120 Vision MAX ARGB, and an unofficial alternative to Thermalright's TRCC software.**
-It drives the screen directly, with no vendor software, and turns it into your own live dashboard: nearly 90 themes, a visual editor, live sensors, weather, alerts and more.
+It drives the screen directly, with no vendor software, and turns it into your own live dashboard: over 100 themes, a visual editor, live sensors, weather, alerts and more.
 
 [![Latest release](https://img.shields.io/github/v/release/vitcox/RigCanvas?style=flat-square&label=download)](https://github.com/vitcox/RigCanvas/releases/latest)
 ![Freeware](https://img.shields.io/badge/license-freeware-success?style=flat-square)
@@ -25,7 +25,7 @@ It drives the screen directly, with no vendor software, and turns it into your o
 ## Features
 
 **🎨 Themes**
-- 9 built-in themes plus **78 more in the online gallery**, one click away: animated video backgrounds, painted art, retro terminals, weather stations, music players, light and dark designs. All of them show *your* hardware names automatically.
+- 9 built-in themes plus **92 more in the online gallery**, one click away: animated video backgrounds (spinning vinyl, a playing cassette, concert lights, rain, a campfire …), music visualizers, painted art, retro terminals, weather stations, music players, light and dark designs. All of them show *your* hardware names automatically.
 - Pictures, animated GIFs and videos as backgrounds, cropped and converted once so playback stays light.
 - **Playlists** that rotate themes with a cross-fade.
 - **Automatic theme:** switch to a music, game or night theme while something is going on (music playing, a game running, a time window, a sensor above or below a limit, an alert).
@@ -46,7 +46,7 @@ It drives the screen directly, with no vendor software, and turns it into your o
 - Alerts on the LCD and as a Windows notification (GPU too hot, pump stopped…).
 - Brightness, automatic night dimming, screen off when the PC is locked or asleep.
 - Tray icon, start with Windows, built-in updates, first-start wizard.
-- English and Polish, dark and light interface.
+- English and Polish; 13 interface themes (Catppuccin, Nord, Dracula, Tokyo Night, Gruvbox, Rosé Pine, Solarized …), any accent color, following Windows light / dark mode if you like.
 
 ## Screenshots
 
@@ -54,15 +54,19 @@ It drives the screen directly, with no vendor software, and turns it into your o
 
 ![Theme library](screenshots/gallery.png)
 
-**Online gallery:** 78 more themes, filtered by tags (animated, gaming, weather, music, light …) and added with one click (Themes tab → **Online**).
+**Online gallery:** 92 more themes, filtered by tags (animated, gaming, weather, music, light …) and added with one click (Themes tab → **Online**).
 
 ![Themes from the online gallery](screenshots/gallery-banner.png)
+
+New themes are marked and listed first; animated ones play a preview when you point at them.
+
+![The online gallery window](screenshots/online.png)
 
 **Editor:** drag widgets on a live preview; every property in the inspector on the right.
 
 ![Theme editor](screenshots/editor.png)
 
-**Settings:** screen, sensors, startup, weather, alerts and automatic theme switching.
+**Settings:** screen, sensors, startup, weather, alerts and automatic theme switching. The app itself comes in 13 interface themes (here Catppuccin Mocha), with any accent color, and can follow Windows light / dark mode.
 
 ![Settings](screenshots/settings.png)
 

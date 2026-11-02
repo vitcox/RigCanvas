@@ -5,7 +5,7 @@
 # RigCanvas
 
 **Darmowy program dla Windows do ekranu LCD 480×854 (USB) w chłodzeniach Thermalright, np. Peerless Assassin 120 Vision MAX ARGB. To nieoficjalny zamiennik programu TRCC od Thermalright.**
-Obsługuje ekran bezpośrednio, bez oprogramowania producenta, i zamienia go w Twój własny panel na żywo: prawie 90 motywów, edytor wizualny, czujniki, pogoda, alerty i więcej.
+Obsługuje ekran bezpośrednio, bez oprogramowania producenta, i zamienia go w Twój własny panel na żywo: ponad 100 motywów, edytor wizualny, czujniki, pogoda, alerty i więcej.
 
 [![Najnowsza wersja](https://img.shields.io/github/v/release/vitcox/RigCanvas?style=flat-square&label=pobierz)](https://github.com/vitcox/RigCanvas/releases/latest)
 ![Freeware](https://img.shields.io/badge/licencja-freeware-success?style=flat-square)
@@ -24,7 +24,7 @@ Obsługuje ekran bezpośrednio, bez oprogramowania producenta, i zamienia go w T
 ## Funkcje
 
 **🎨 Motywy**
-- 9 wbudowanych motywów i **78 kolejnych w galerii online**, jedno kliknięcie dalej: animowane tła wideo, malowane grafiki, retro terminale, stacje pogodowe, odtwarzacze muzyki, jasne i ciemne projekty. Wszystkie same pokazują nazwy *Twojego* sprzętu.
+- 9 wbudowanych motywów i **92 kolejne w galerii online**, jedno kliknięcie dalej: animowane tła wideo (kręcący się winyl, grająca kaseta, światła koncertu, deszcz, ognisko …), wizualizacje muzyki, malowane grafiki, retro terminale, stacje pogodowe, odtwarzacze muzyki, jasne i ciemne projekty. Wszystkie same pokazują nazwy *Twojego* sprzętu.
 - Obrazy, animowane GIF-y i filmy jako tło, kadrowane i przerabiane raz, więc odtwarzanie jest lekkie.
 - **Playlisty** zmieniające motywy z płynnym przejściem.
 - **Automatyczna zmiana motywu:** muzyczny, growy albo nocny motyw, gdy coś się dzieje (gra muzyka, uruchomiona gra, przedział godzin, czujnik powyżej lub poniżej progu, alert).
@@ -45,7 +45,7 @@ Obsługuje ekran bezpośrednio, bez oprogramowania producenta, i zamienia go w T
 - Alerty na ekranie LCD i jako powiadomienie Windows (za gorące GPU, stojąca pompa…).
 - Jasność, automatyczne przyciemnianie w nocy, wygaszanie przy zablokowanym lub uśpionym PC.
 - Ikona w zasobniku, start z Windows, wbudowane aktualizacje, kreator pierwszego uruchomienia.
-- Polski i angielski, interfejs ciemny i jasny.
+- Polski i angielski; 13 motywów interfejsu (Catppuccin, Nord, Dracula, Tokyo Night, Gruvbox, Rosé Pine, Solarized …), dowolny kolor akcentu, opcjonalnie zgodnie z jasnym / ciemnym trybem Windows.
 
 ## Zrzuty ekranu
 
@@ -55,15 +55,19 @@ Program ma polski i angielski interfejs; zrzuty pokazują wersję angielską.
 
 ![Biblioteka motywów](screenshots/gallery.png)
 
-**Galeria online:** 78 kolejnych motywów, filtrowanych tagami (animowane, gry, pogoda, muzyka, jasne …) i dodawanych jednym kliknięciem (zakładka Motywy → **Online**).
+**Galeria online:** 92 kolejne motywy, filtrowane tagami (animowane, gry, pogoda, muzyka, jasne …) i dodawane jednym kliknięciem (zakładka Motywy → **Online**).
 
 ![Motywy z galerii online](screenshots/gallery-banner.png)
+
+Nowe motywy są oznaczone i wyświetlane jako pierwsze; animowane odtwarzają podgląd po najechaniu myszką.
+
+![Okno galerii online](screenshots/online.png)
 
 **Edytor:** przeciąganie widżetów na podglądzie na żywo, wszystkie właściwości w inspektorze po prawej.
 
 ![Edytor motywów](screenshots/editor.png)
 
-**Ustawienia:** ekran, czujniki, uruchamianie, pogoda, alerty i automatyczna zmiana motywu.
+**Ustawienia:** ekran, czujniki, uruchamianie, pogoda, alerty i automatyczna zmiana motywu. Sam program ma 13 motywów interfejsu (tu Catppuccin Mocha), dowolny kolor akcentu i może podążać za jasnym / ciemnym trybem Windows.
 
 ![Ustawienia](screenshots/settings.png)
 

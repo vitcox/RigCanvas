@@ -8,6 +8,9 @@
       "descriptionPl": "Niekończąca się neonowa droga o zachodzie słońca (wideo) z temperaturami, FPS i obciążeniem w świecącym kokpicie.",
       "file": "SynthwaveDrive.tlcd",
       "thumbnail": "SynthwaveDrive.jpg",
+      "animation": "SynthwaveDrive.anim.jpg",
+      "animationFrames": 12,
+      "added": "2026-11-01",
       "tags": [
         "animated",
         "retro",
@@ -22,6 +25,9 @@
       "descriptionPl": "Lot przez gwiazdy (wideo); FPS w środku pierścienia obciążenia GPU, czasy klatek poniżej.",
       "file": "WarpSpeed.tlcd",
       "thumbnail": "WarpSpeed.jpg",
+      "animation": "WarpSpeed.anim.jpg",
+      "animationFrames": 12,
+      "added": "2026-11-01",
       "tags": [
         "animated",
         "scifi",
@@ -35,6 +41,9 @@
       "descriptionPl": "Zorza polarna falująca nad górami (wideo), spokojny zegar, pogoda i temperatury.",
       "file": "AuroraNight.tlcd",
       "thumbnail": "AuroraNight.jpg",
+      "animation": "AuroraNight.anim.jpg",
+      "animationFrames": 12,
+      "added": "2026-11-01",
       "tags": [
         "animated",
         "nature",
@@ -49,6 +58,9 @@
       "descriptionPl": "Spadający zielony kod (wideo) za oknem terminala pełnym odczytów na żywo.",
       "file": "CodeRain.tlcd",
       "thumbnail": "CodeRain.jpg",
+      "animation": "CodeRain.anim.jpg",
+      "animationFrames": 12,
+      "added": "2026-11-01",
       "tags": [
         "animated",
         "retro",
@@ -62,6 +74,9 @@
       "descriptionPl": "Śnieg padający na chatkę nocą (wideo) i odliczanie do Wigilii.",
       "file": "SilentNight.tlcd",
       "thumbnail": "SilentNight.jpg",
+      "animation": "SilentNight.anim.jpg",
+      "animationFrames": 12,
+      "added": "2026-11-01",
       "tags": [
         "animated",
         "seasonal",
@@ -75,6 +90,9 @@
       "descriptionPl": "Powoli płynąca plazma (wideo) za matowym zegarem i czterema pierścieniami obciążenia.",
       "file": "PlasmaPulse.tlcd",
       "thumbnail": "PlasmaPulse.jpg",
+      "animation": "PlasmaPulse.anim.jpg",
+      "animationFrames": 12,
+      "added": "2026-11-01",
       "tags": [
         "animated",
         "clock",
@@ -88,10 +106,238 @@
       "descriptionPl": "Podwodne refleksy światła (wideo), temperatura GPU jako głębokość i cztery pionowe wskaźniki.",
       "file": "Abyss.tlcd",
       "thumbnail": "Abyss.jpg",
+      "animation": "Abyss.anim.jpg",
+      "animationFrames": 12,
+      "added": "2026-11-01",
       "tags": [
         "animated",
         "nature",
         "dashboard"
+      ]
+    },
+    {
+      "name": "Vinyl Spin",
+      "author": "RigCanvas",
+      "description": "A record turning on a turntable (video loop), the album cover in the middle, a flowing spectrum and the track.",
+      "descriptionPl": "Płyta winylowa kręcąca się na gramofonie (wideo), okładka na środku, falujące spektrum i tytuł utworu.",
+      "file": "VinylSpin.tlcd",
+      "thumbnail": "VinylSpin.jpg",
+      "animation": "VinylSpin.anim.jpg",
+      "animationFrames": 12,
+      "added": "2026-11-02",
+      "tags": [
+        "animated",
+        "music",
+        "retro"
+      ]
+    },
+    {
+      "name": "Mixtape",
+      "author": "RigCanvas",
+      "description": "A cassette playing (video loop) with the track handwritten on its label, an LED spectrum, a tape counter and the input level.",
+      "descriptionPl": "Grająca kaseta (wideo) z tytułem napisanym odręcznie na naklejce, spektrum LED, licznik taśmy i poziom wejścia.",
+      "file": "Mixtape.tlcd",
+      "thumbnail": "Mixtape.jpg",
+      "animation": "Mixtape.anim.jpg",
+      "animationFrames": 12,
+      "added": "2026-11-02",
+      "tags": [
+        "animated",
+        "music",
+        "retro"
+      ]
+    },
+    {
+      "name": "Headliner",
+      "author": "RigCanvas",
+      "description": "A concert: stage lights sweeping over the crowd (video loop), a huge glowing title, the artist and a mirrored spectrum.",
+      "descriptionPl": "Koncert: światła sceny omiatające tłum (wideo), wielki świecący tytuł, wykonawca i lustrzane spektrum.",
+      "file": "Headliner.tlcd",
+      "thumbnail": "Headliner.jpg",
+      "animation": "Headliner.anim.jpg",
+      "animationFrames": 12,
+      "added": "2026-11-02",
+      "tags": [
+        "animated",
+        "music",
+        "neon"
+      ]
+    },
+    {
+      "name": "Rainy Night",
+      "author": "RigCanvas",
+      "description": "Rain running down the window at night (video loop), the clock, the weather and a music card. Lo-fi to work to.",
+      "descriptionPl": "Deszcz spływający po szybie nocą (wideo), zegar, pogoda i karta z muzyką. Lo-fi do pracy.",
+      "file": "RainyNight.tlcd",
+      "thumbnail": "RainyNight.jpg",
+      "animation": "RainyNight.anim.jpg",
+      "animationFrames": 12,
+      "added": "2026-11-02",
+      "tags": [
+        "animated",
+        "music",
+        "weather"
+      ]
+    },
+    {
+      "name": "Lava Lamp",
+      "author": "RigCanvas",
+      "description": "Wax slowly rising in a lava lamp (video loop), a huge clock and four readings in a glass card.",
+      "descriptionPl": "Wosk powoli wznoszący się w lampie lava (wideo), wielki zegar i cztery odczyty w szklanej karcie.",
+      "file": "LavaLamp.tlcd",
+      "thumbnail": "LavaLamp.jpg",
+      "animation": "LavaLamp.anim.jpg",
+      "animationFrames": 12,
+      "added": "2026-11-02",
+      "tags": [
+        "animated",
+        "retro",
+        "playful",
+        "clock"
+      ]
+    },
+    {
+      "name": "Campfire",
+      "author": "RigCanvas",
+      "description": "A campfire under the stars: flickering flames and sparks (video loop), the clock, the date and the weather.",
+      "descriptionPl": "Ognisko pod gwiazdami: migoczące płomienie i iskry (wideo), zegar, data i pogoda.",
+      "file": "Campfire.tlcd",
+      "thumbnail": "Campfire.jpg",
+      "animation": "Campfire.anim.jpg",
+      "animationFrames": 12,
+      "added": "2026-11-02",
+      "tags": [
+        "animated",
+        "nature",
+        "clock",
+        "weather"
+      ]
+    },
+    {
+      "name": "Neon Tunnel",
+      "author": "RigCanvas",
+      "description": "Flying down a neon tunnel (video loop), FPS in the middle, temperatures, load and a frame-rate graph.",
+      "descriptionPl": "Lot neonowym tunelem (wideo), FPS w środku, temperatury, obciążenie i wykres klatek.",
+      "file": "NeonTunnel.tlcd",
+      "thumbnail": "NeonTunnel.jpg",
+      "animation": "NeonTunnel.anim.jpg",
+      "animationFrames": 12,
+      "added": "2026-11-02",
+      "tags": [
+        "animated",
+        "gaming",
+        "neon"
+      ]
+    },
+    {
+      "name": "Spiral Galaxy",
+      "author": "RigCanvas",
+      "description": "A turning spiral galaxy (video loop), the clock, three glass tiles and a load history.",
+      "descriptionPl": "Obracająca się galaktyka spiralna (wideo), zegar, trzy szklane kafelki i historia obciążenia.",
+      "file": "SpiralGalaxy.tlcd",
+      "thumbnail": "SpiralGalaxy.jpg",
+      "animation": "SpiralGalaxy.anim.jpg",
+      "animationFrames": 12,
+      "added": "2026-11-02",
+      "tags": [
+        "animated",
+        "scifi",
+        "graphs"
+      ]
+    },
+    {
+      "name": "Firefly Glade",
+      "author": "RigCanvas",
+      "description": "Fireflies blinking in a forest clearing (video loop), a quiet clock and one line of readings.",
+      "descriptionPl": "Świetliki migające na leśnej polanie (wideo), spokojny zegar i jedna linia odczytów.",
+      "file": "FireflyGlade.tlcd",
+      "thumbnail": "FireflyGlade.jpg",
+      "animation": "FireflyGlade.anim.jpg",
+      "animationFrames": 12,
+      "added": "2026-11-02",
+      "tags": [
+        "animated",
+        "nature",
+        "clock",
+        "minimal"
+      ]
+    },
+    {
+      "name": "Hi-Fi Stack",
+      "author": "RigCanvas",
+      "description": "A brushed-aluminium amplifier: VU needles for level and bass, a display with the track and a spectrum, live tone bars.",
+      "descriptionPl": "Wzmacniacz ze szczotkowanego aluminium: wskaźniki VU dla poziomu i basu, wyświetlacz z tytułem i spektrum, regulacja barwy na żywo.",
+      "file": "HiFiStack.tlcd",
+      "thumbnail": "HiFiStack.jpg",
+      "animation": "",
+      "animationFrames": 0,
+      "added": "2026-11-02",
+      "tags": [
+        "music",
+        "retro"
+      ]
+    },
+    {
+      "name": "Mixing Desk",
+      "author": "RigCanvas",
+      "description": "A mixing desk: a spectrum and bass, mid, treble and master channels that move with the music.",
+      "descriptionPl": "Konsola mikserska: spektrum oraz kanały basu, środka, sopranów i master, które grają razem z muzyką.",
+      "file": "MixingDesk.tlcd",
+      "thumbnail": "MixingDesk.jpg",
+      "animation": "",
+      "animationFrames": 0,
+      "added": "2026-11-02",
+      "tags": [
+        "music",
+        "dashboard"
+      ]
+    },
+    {
+      "name": "Oscilloscope",
+      "author": "RigCanvas",
+      "description": "A green oscilloscope: the spectrum as a trace, a sound-level plot and a track readout.",
+      "descriptionPl": "Zielony oscyloskop: spektrum jako przebieg, wykres poziomu dźwięku i odczyt utworu.",
+      "file": "Oscilloscope.tlcd",
+      "thumbnail": "Oscilloscope.jpg",
+      "animation": "",
+      "animationFrames": 0,
+      "added": "2026-11-02",
+      "tags": [
+        "music",
+        "retro",
+        "graphs"
+      ]
+    },
+    {
+      "name": "Pure Cover",
+      "author": "RigCanvas",
+      "description": "A big album cover on warm white, the track, a soft spectrum and the clock. Light and calm.",
+      "descriptionPl": "Duża okładka na ciepłej bieli, tytuł, delikatne spektrum i zegar. Jasny i spokojny.",
+      "file": "PureCover.tlcd",
+      "thumbnail": "PureCover.jpg",
+      "animation": "",
+      "animationFrames": 0,
+      "added": "2026-11-02",
+      "tags": [
+        "music",
+        "light",
+        "minimal"
+      ]
+    },
+    {
+      "name": "Neon Ring",
+      "author": "RigCanvas",
+      "description": "A round neon spectrum around the clock, the track and a scrolling line of readings.",
+      "descriptionPl": "Okrągłe neonowe spektrum wokół zegara, tytuł i przewijana linia odczytów.",
+      "file": "NeonRing.tlcd",
+      "thumbnail": "NeonRing.jpg",
+      "animation": "",
+      "animationFrames": 0,
+      "added": "2026-11-02",
+      "tags": [
+        "music",
+        "neon",
+        "clock"
       ]
     },
     {
@@ -101,6 +347,9 @@
       "descriptionPl": "Widżety z matowego szkła na miękkim tle zachodu: zegar, pogoda, pierścienie CPU / GPU, muzyka, pamięć.",
       "file": "FrostedGlass.tlcd",
       "thumbnail": "FrostedGlass.jpg",
+      "animation": "",
+      "animationFrames": 0,
+      "added": "2026-11-01",
       "tags": [
         "dashboard",
         "weather",
@@ -114,6 +363,9 @@
       "descriptionPl": "Neony na ceglanej ścianie: świecący zegar, temperatury i FPS, przewijany pasek.",
       "file": "NeonBar.tlcd",
       "thumbnail": "NeonBar.jpg",
+      "animation": "",
+      "animationFrames": 0,
+      "added": "2026-11-01",
       "tags": [
         "neon",
         "gaming",
@@ -127,6 +379,9 @@
       "descriptionPl": "Odręczne notatki na papierze w linie: data, duży zegar, odczyty komputera i kalendarz.",
       "file": "Notebook.tlcd",
       "thumbnail": "Notebook.jpg",
+      "animation": "",
+      "animationFrames": 0,
+      "added": "2026-11-01",
       "tags": [
         "light",
         "playful",
@@ -140,6 +395,9 @@
       "descriptionPl": "Bursztynowy terminal CRT z liniami skanowania: odczyty, wykres historii i przewijany pasek stanu.",
       "file": "AmberTerminal.tlcd",
       "thumbnail": "AmberTerminal.jpg",
+      "animation": "",
+      "animationFrames": 0,
+      "added": "2026-11-01",
       "tags": [
         "retro",
         "graphs"
@@ -152,6 +410,9 @@
       "descriptionPl": "Zielony oscyloskop: trzy przebiegi na żywo dla obciążenia, temperatur i sieci.",
       "file": "GreenPhosphor.tlcd",
       "thumbnail": "GreenPhosphor.jpg",
+      "animation": "",
+      "animationFrames": 0,
+      "added": "2026-11-01",
       "tags": [
         "retro",
         "graphs"
@@ -164,6 +425,9 @@
       "descriptionPl": "Pastelowy vaporwave: okładka albumu, lustrzane widmo dźwięku, zegar i temperatury.",
       "file": "VaporDreams.tlcd",
       "thumbnail": "VaporDreams.jpg",
+      "animation": "",
+      "animationFrames": 0,
+      "added": "2026-11-01",
       "tags": [
         "retro",
         "music",
@@ -177,6 +441,9 @@
       "descriptionPl": "Fioletowa mgławica z animowanym rdzeniem reaktora, szklanymi kafelkami i historią obciążenia.",
       "file": "DeepSpace.tlcd",
       "thumbnail": "DeepSpace.jpg",
+      "animation": "",
+      "animationFrames": 0,
+      "added": "2026-11-01",
       "tags": [
         "scifi",
         "dashboard",
@@ -190,6 +457,9 @@
       "descriptionPl": "Ognista mgławica za dwoma segmentowymi łukami temperatur, które rozgrzewają się razem ze sprzętem.",
       "file": "EmberNebula.tlcd",
       "thumbnail": "EmberNebula.jpg",
+      "animation": "",
+      "animationFrames": 0,
+      "added": "2026-11-01",
       "tags": [
         "scifi",
         "gaming"
@@ -202,6 +472,9 @@
       "descriptionPl": "Kokpit wyścigówki na włóknie węglowym: lampki zmiany biegu, obrotomierz obciążenia GPU, FPS i stoper.",
       "file": "CarbonFiber.tlcd",
       "thumbnail": "CarbonFiber.jpg",
+      "animation": "",
+      "animationFrames": 0,
+      "added": "2026-11-01",
       "tags": [
         "gaming",
         "dashboard"
@@ -214,6 +487,9 @@
       "descriptionPl": "Szczotkowana stal z analogowym zegarem, wskazówkowymi termometrami i grawerowanymi tabliczkami.",
       "file": "Gunmetal.tlcd",
       "thumbnail": "Gunmetal.jpg",
+      "animation": "",
+      "animationFrames": 0,
+      "added": "2026-11-01",
       "tags": [
         "clock",
         "dashboard"
@@ -226,6 +502,9 @@
       "descriptionPl": "Rysunek techniczny: rysunki temperatur i obciążenia, specyfikacja pismem maszynowym.",
       "file": "Blueprint.tlcd",
       "thumbnail": "Blueprint.jpg",
+      "animation": "",
+      "animationFrames": 0,
+      "added": "2026-11-01",
       "tags": [
         "graphs",
         "minimal"
@@ -238,6 +517,9 @@
       "descriptionPl": "Kreda na szkolnej tablicy: dzisiejsza lekcja to Twój komputer, z ręcznie rysowanym kalendarzem.",
       "file": "ChalkTalk.tlcd",
       "thumbnail": "ChalkTalk.jpg",
+      "animation": "",
+      "animationFrames": 0,
+      "added": "2026-11-01",
       "tags": [
         "playful",
         "clock"
@@ -250,6 +532,9 @@
       "descriptionPl": "Orzechowe biurko z papierowym zegarem ściennym, kalendarzem biurkowym i mosiężną tabliczką.",
       "file": "WalnutDesk.tlcd",
       "thumbnail": "WalnutDesk.jpg",
+      "animation": "",
+      "animationFrames": 0,
+      "added": "2026-11-01",
       "tags": [
         "elegant",
         "clock"
@@ -262,6 +547,9 @@
       "descriptionPl": "Biały marmur i cienkie złote linie: elegancki szeryfowy zegar z trzema odczytami.",
       "file": "MarbleGold.tlcd",
       "thumbnail": "MarbleGold.jpg",
+      "animation": "",
+      "animationFrames": 0,
+      "added": "2026-11-01",
       "tags": [
         "light",
         "elegant",
@@ -276,6 +564,9 @@
       "descriptionPl": "Mapa topograficzna: pogoda, kompas obciążenia GPU i godzinny profil wysokości.",
       "file": "Contour.tlcd",
       "thumbnail": "Contour.jpg",
+      "animation": "",
+      "animationFrames": 0,
+      "added": "2026-11-01",
       "tags": [
         "nature",
         "weather",
@@ -289,6 +580,9 @@
       "descriptionPl": "Zielona płytka drukowana ze złotymi ścieżkami: układy z zegarem, magistrale obciążenia i temperatury.",
       "file": "Circuit.tlcd",
       "thumbnail": "Circuit.jpg",
+      "animation": "",
+      "animationFrames": 0,
+      "added": "2026-11-01",
       "tags": [
         "scifi",
         "dashboard"
@@ -301,6 +595,9 @@
       "descriptionPl": "Świecące sześciokątne komórki pełne odczytów na bursztynowym plastrze miodu.",
       "file": "Hive.tlcd",
       "thumbnail": "Hive.jpg",
+      "animation": "",
+      "animationFrames": 0,
+      "added": "2026-11-01",
       "tags": [
         "playful",
         "dashboard",
@@ -314,6 +611,9 @@
       "descriptionPl": "Ciepłe rozmyte światła, duża okładka albumu i lustrzane widmo. Do muzyki.",
       "file": "Lounge.tlcd",
       "thumbnail": "Lounge.jpg",
+      "animation": "",
+      "animationFrames": 0,
+      "added": "2026-11-01",
       "tags": [
         "music"
       ]
@@ -325,6 +625,9 @@
       "descriptionPl": "Rozmyte światła miasta nocą, duży zegar, data i pogoda.",
       "file": "CityLights.tlcd",
       "thumbnail": "CityLights.jpg",
+      "animation": "",
+      "animationFrames": 0,
+      "added": "2026-11-01",
       "tags": [
         "clock",
         "weather",
@@ -338,6 +641,9 @@
       "descriptionPl": "Szklane kafelki z mini wykresami nad turkusową laguną i wykres mocy.",
       "file": "GlassLagoon.tlcd",
       "thumbnail": "GlassLagoon.jpg",
+      "animation": "",
+      "animationFrames": 0,
+      "added": "2026-11-01",
       "tags": [
         "dashboard",
         "graphs"
@@ -350,6 +656,9 @@
       "descriptionPl": "Popękana, żarząca się lawa pod ciemnymi kartami: segmentowy łuk temperatury GPU i paski CPU.",
       "file": "Magma.tlcd",
       "thumbnail": "Magma.jpg",
+      "animation": "",
+      "animationFrames": 0,
+      "added": "2026-11-01",
       "tags": [
         "gaming",
         "dashboard"
@@ -362,6 +671,9 @@
       "descriptionPl": "Dynie przy pełni księżyca i odliczanie do Halloween.",
       "file": "PumpkinHour.tlcd",
       "thumbnail": "PumpkinHour.jpg",
+      "animation": "",
+      "animationFrames": 0,
+      "added": "2026-11-01",
       "tags": [
         "seasonal",
         "playful",
@@ -375,6 +687,9 @@
       "descriptionPl": "Neonowa panorama miasta: ogromne FPS, nazwa gry i cztery kafelki temperatur i czasu klatki.",
       "file": "NightCity.tlcd",
       "thumbnail": "NightCity.jpg",
+      "animation": "",
+      "animationFrames": 0,
+      "added": "2026-11-01",
       "tags": [
         "gaming",
         "neon"
@@ -387,6 +702,9 @@
       "descriptionPl": "Izometryczne bloki z płaskimi kartami: zegar, cztery paski obciążenia, temperatury i moc.",
       "file": "Isometric.tlcd",
       "thumbnail": "Isometric.jpg",
+      "animation": "",
+      "animationFrames": 0,
+      "added": "2026-11-01",
       "tags": [
         "dashboard"
       ]
@@ -398,6 +716,9 @@
       "descriptionPl": "Japoński wzór fal w indygo i złocie, delikatny zegar analogowy i lista odczytów.",
       "file": "Seigaiha.tlcd",
       "thumbnail": "Seigaiha.jpg",
+      "animation": "",
+      "animationFrames": 0,
+      "added": "2026-11-01",
       "tags": [
         "elegant",
         "clock"
@@ -410,6 +731,9 @@
       "descriptionPl": "Mgliste góry o zmierzchu z pełną prognozą: teraz, najbliższe godziny i trzy dni.",
       "file": "TwilightPeaks.tlcd",
       "thumbnail": "TwilightPeaks.jpg",
+      "animation": "",
+      "animationFrames": 0,
+      "added": "2026-11-01",
       "tags": [
         "weather",
         "nature"
@@ -422,6 +746,9 @@
       "descriptionPl": "Pustynne wydmy pod łagodnym niebem, duży lekki zegar i jedna linia odczytów.",
       "file": "Dune.tlcd",
       "thumbnail": "Dune.jpg",
+      "animation": "",
+      "animationFrames": 0,
+      "added": "2026-11-01",
       "tags": [
         "nature",
         "clock",
@@ -435,6 +762,9 @@
       "descriptionPl": "Wschód słońca, zegar, dzisiejsza pogoda z godzinami wschodu i zachodu oraz cztery odczyty.",
       "file": "Daybreak.tlcd",
       "thumbnail": "Daybreak.jpg",
+      "animation": "",
+      "animationFrames": 0,
+      "added": "2026-11-01",
       "tags": [
         "weather",
         "clock",
@@ -448,6 +778,9 @@
       "descriptionPl": "Szklany kokpit samolotu: wskaźnik silnika jako obciążenie GPU, ekran trendów i odczyty.",
       "file": "GlassCockpit.tlcd",
       "thumbnail": "GlassCockpit.jpg",
+      "animation": "",
+      "animationFrames": 0,
+      "added": "2026-11-01",
       "tags": [
         "dashboard",
         "gaming",
@@ -461,6 +794,9 @@
       "descriptionPl": "Konsola centrum kontroli lotów z odliczaniem T-minus do Nowego Roku i ośmioma odczytami.",
       "file": "MissionControl.tlcd",
       "thumbnail": "MissionControl.jpg",
+      "animation": "",
+      "animationFrames": 0,
+      "added": "2026-11-01",
       "tags": [
         "scifi",
         "dashboard",
@@ -474,6 +810,9 @@
       "descriptionPl": "Studio telewizyjnych wiadomości: nagłówek o Twoim GPU, tablica notowań obciążenia i pasek z pilnymi wiadomościami.",
       "file": "Newsroom.tlcd",
       "thumbnail": "Newsroom.jpg",
+      "animation": "",
+      "animationFrames": 0,
+      "added": "2026-11-01",
       "tags": [
         "playful",
         "dashboard",
@@ -487,6 +826,9 @@
       "descriptionPl": "Plakat w stylu Bauhausu: podstawowe kształty, wyrazisty zegar, odczyty z czerwonymi, żółtymi i niebieskimi paskami.",
       "file": "Bauhaus.tlcd",
       "thumbnail": "Bauhaus.jpg",
+      "animation": "",
+      "animationFrames": 0,
+      "added": "2026-11-01",
       "tags": [
         "light",
         "elegant",
@@ -500,6 +842,9 @@
       "descriptionPl": "Konfetti w stylu Memphis i masywne karty z twardym cieniem: zegar, temperatury, wykres obciążenia.",
       "file": "Memphis.tlcd",
       "thumbnail": "Memphis.jpg",
+      "animation": "",
+      "animationFrames": 0,
+      "added": "2026-11-01",
       "tags": [
         "light",
         "playful"
@@ -512,6 +857,9 @@
       "descriptionPl": "Czteroodcieniowy ekran przenośnej konsoli: statystyki RIG QUEST, segmentowe paski i duży zegar.",
       "file": "PocketConsole.tlcd",
       "thumbnail": "PocketConsole.jpg",
+      "animation": "",
+      "animationFrames": 0,
+      "added": "2026-11-01",
       "tags": [
         "retro",
         "playful",
@@ -525,6 +873,9 @@
       "descriptionPl": "Ręcznie podpisane wykresy na papierze milimetrowym: ostatnia godzina, 6 godzin i 24 godziny.",
       "file": "GraphPaper.tlcd",
       "thumbnail": "GraphPaper.jpg",
+      "animation": "",
+      "animationFrames": 0,
+      "added": "2026-11-01",
       "tags": [
         "light",
         "playful",
@@ -538,6 +889,9 @@
       "descriptionPl": "Gazeta na e-papierze: winieta, duży szeryfowy zegar, pierwsza strona o Twoim komputerze, pogoda i kalendarz.",
       "file": "MorningPaper.tlcd",
       "thumbnail": "MorningPaper.jpg",
+      "animation": "",
+      "animationFrames": 0,
+      "added": "2026-11-01",
       "tags": [
         "light",
         "minimal",
@@ -552,6 +906,9 @@
       "descriptionPl": "Różowe groszki, serduszka i zaokrąglone karty: zegar, pierścienie temperatur, pasek nastroju i pogoda.",
       "file": "Kawaii.tlcd",
       "thumbnail": "Kawaii.jpg",
+      "animation": "",
+      "animationFrames": 0,
+      "added": "2026-11-01",
       "tags": [
         "light",
         "playful",
@@ -565,6 +922,9 @@
       "descriptionPl": "Jasna, błękitna stacja pogodowa: teraz, szczegóły, najbliższe godziny i trzy dni.",
       "file": "ClearSky.tlcd",
       "thumbnail": "ClearSky.jpg",
+      "animation": "",
+      "animationFrames": 0,
+      "added": "2026-11-01",
       "tags": [
         "light",
         "weather"
@@ -577,6 +937,9 @@
       "descriptionPl": "Przyciemniony czerwony zegar przy łóżku, który nie rozświetla pokoju.",
       "file": "NightStand.tlcd",
       "thumbnail": "NightStand.jpg",
+      "animation": "",
+      "animationFrames": 0,
+      "added": "2026-11-01",
       "tags": [
         "clock",
         "minimal"
@@ -589,6 +952,9 @@
       "descriptionPl": "Tęczowe skale kolorów na każdym wskaźniku i pasku, dla miłośników RGB.",
       "file": "RGBRainbow.tlcd",
       "thumbnail": "RGBRainbow.jpg",
+      "animation": "",
+      "animationFrames": 0,
+      "added": "2026-11-01",
       "tags": [
         "gaming",
         "neon",
@@ -602,6 +968,9 @@
       "descriptionPl": "Ogromne żółte liczby na czarnym tle, czytelne z drugiego końca pokoju.",
       "file": "HighContrast.tlcd",
       "thumbnail": "HighContrast.jpg",
+      "animation": "",
+      "animationFrames": 0,
+      "added": "2026-11-01",
       "tags": [
         "minimal",
         "dashboard"
@@ -614,6 +983,9 @@
       "descriptionPl": "Sześć wskazówkowych mierników dla wszystkich wentylatorów i pompy oraz temperatury płyty.",
       "file": "FanWall.tlcd",
       "thumbnail": "FanWall.jpg",
+      "animation": "",
+      "animationFrames": 0,
+      "added": "2026-11-01",
       "tags": [
         "dashboard"
       ]
@@ -625,6 +997,9 @@
       "descriptionPl": "Ostatnie 24 godziny w skrócie: słupki temperatur, moc, czas pracy i pobrane dane.",
       "file": "DailyLog.tlcd",
       "thumbnail": "DailyLog.jpg",
+      "animation": "",
+      "animationFrames": 0,
+      "added": "2026-11-01",
       "tags": [
         "graphs",
         "dashboard"
@@ -637,6 +1012,9 @@
       "descriptionPl": "Okładka albumu wypełnia górną połowę, a pod nią utwór i widmo dźwięku.",
       "file": "AlbumWall.tlcd",
       "thumbnail": "AlbumWall.jpg",
+      "animation": "",
+      "animationFrames": 0,
+      "added": "2026-11-01",
       "tags": [
         "music"
       ]
@@ -648,6 +1026,9 @@
       "descriptionPl": "Okrągłe widmo dźwięku wokół okrągłej okładki albumu, z zegarem nad nim.",
       "file": "Orbit.tlcd",
       "thumbnail": "Orbit.jpg",
+      "animation": "",
+      "animationFrames": 0,
+      "added": "2026-11-01",
       "tags": [
         "music",
         "minimal"
@@ -660,6 +1041,9 @@
       "descriptionPl": "Lotniskowa tablica odlotów: każdy odczyt to lot, plus pasek „trwa boarding”.",
       "file": "Departures.tlcd",
       "thumbnail": "Departures.jpg",
+      "animation": "",
+      "animationFrames": 0,
+      "added": "2026-11-01",
       "tags": [
         "playful",
         "dashboard",
@@ -673,6 +1057,9 @@
       "descriptionPl": "Holograficzny HUD sci-fi: rdzeń reaktora, segmentowy pierścień obciążenia, odczyty i przebiegi.",
       "file": "HoloHUD.tlcd",
       "thumbnail": "HoloHUD.jpg",
+      "animation": "",
+      "animationFrames": 0,
+      "added": "2026-11-01",
       "tags": [
         "scifi",
         "gaming",
@@ -686,6 +1073,9 @@
       "descriptionPl": "Telemetria wyścigowa: duży obrotomierz obciążenia GPU, dwa małe zegary i pasek odczytów.",
       "file": "CarbonRacing.tlcd",
       "thumbnail": "CarbonRacing.jpg",
+      "animation": "",
+      "animationFrames": 0,
+      "added": "2026-11-01",
       "tags": [
         "gaming",
         "dashboard"
@@ -698,6 +1088,9 @@
       "descriptionPl": "Zielony terminal z listą wszystkich czujników, wykresem obciążenia i zegarem z sekundami.",
       "file": "MatrixTerminal.tlcd",
       "thumbnail": "MatrixTerminal.jpg",
+      "animation": "",
+      "animationFrames": 0,
+      "added": "2026-11-01",
       "tags": [
         "retro",
         "graphs"
@@ -710,6 +1103,9 @@
       "descriptionPl": "Animowany rdzeń reaktora nad kartami CPU / GPU i historią obciążenia.",
       "file": "HoloReactor.tlcd",
       "thumbnail": "HoloReactor.jpg",
+      "animation": "",
+      "animationFrames": 0,
+      "added": "2026-11-01",
       "tags": [
         "scifi",
         "gaming",
@@ -723,6 +1119,9 @@
       "descriptionPl": "Segmentowe turkusowe pierścienie temperatur, paski obciążenia i wykres mocy na głębokim błękicie.",
       "file": "DeepOcean.tlcd",
       "thumbnail": "DeepOcean.jpg",
+      "animation": "",
+      "animationFrames": 0,
+      "added": "2026-11-01",
       "tags": [
         "dashboard",
         "graphs"
@@ -735,6 +1134,9 @@
       "descriptionPl": "Ogromne FPS, kolorowa historia liczby klatek oraz GPU i CPU w jednym spojrzeniu.",
       "file": "GamerHUD.tlcd",
       "thumbnail": "GamerHUD.jpg",
+      "animation": "",
+      "animationFrames": 0,
+      "added": "2026-11-01",
       "tags": [
         "gaming",
         "graphs"
@@ -747,6 +1149,9 @@
       "descriptionPl": "Bursztynowy monitor: segmentowe łuki obciążenia, kropkowana lista odczytów i duży zegar z sekundami.",
       "file": "AmberCRT.tlcd",
       "thumbnail": "AmberCRT.jpg",
+      "animation": "",
+      "animationFrames": 0,
+      "added": "2026-11-01",
       "tags": [
         "retro"
       ]
@@ -758,6 +1163,9 @@
       "descriptionPl": "Dziesięć spokojnych grafitowych kafelków z mini wykresami dla wszystkich głównych odczytów.",
       "file": "StealthGraphite.tlcd",
       "thumbnail": "StealthGraphite.jpg",
+      "animation": "",
+      "animationFrames": 0,
+      "added": "2026-11-01",
       "tags": [
         "minimal",
         "dashboard"
@@ -770,6 +1178,9 @@
       "descriptionPl": "Zegar, odtwarzana muzyka i dwa świecące pierścienie obciążenia na ciemnoturkusowym gradiencie.",
       "file": "Aurora.tlcd",
       "thumbnail": "Aurora.jpg",
+      "animation": "",
+      "animationFrames": 0,
+      "added": "2026-11-01",
       "tags": [
         "music",
         "clock"
@@ -782,6 +1193,9 @@
       "descriptionPl": "Spokojny szeryfowy zegar i trzy odczyty na ciepłym białym papierze.",
       "file": "PaperWhite.tlcd",
       "thumbnail": "PaperWhite.jpg",
+      "animation": "",
+      "animationFrames": 0,
+      "added": "2026-11-01",
       "tags": [
         "light",
         "minimal",
@@ -795,6 +1209,9 @@
       "descriptionPl": "Szwajcarska typografia: czerwony nagłówek, cztery duże liczby w siatce i pasek RAM.",
       "file": "SwissGrid.tlcd",
       "thumbnail": "SwissGrid.jpg",
+      "animation": "",
+      "animationFrames": 0,
+      "added": "2026-11-01",
       "tags": [
         "light",
         "minimal"
@@ -807,6 +1224,9 @@
       "descriptionPl": "Delikatne różowe pierścienie, cienkie paski i odtwarzana muzyka, jak kwiat wiśni.",
       "file": "Sakura.tlcd",
       "thumbnail": "Sakura.jpg",
+      "animation": "",
+      "animationFrames": 0,
+      "added": "2026-11-01",
       "tags": [
         "light",
         "music"
@@ -819,6 +1239,9 @@
       "descriptionPl": "Świeże zielone segmentowe wskaźniki, paski mocy i wykres obciążenia.",
       "file": "MintFresh.tlcd",
       "thumbnail": "MintFresh.jpg",
+      "animation": "",
+      "animationFrames": 0,
+      "added": "2026-11-01",
       "tags": [
         "light",
         "dashboard"
@@ -831,6 +1254,9 @@
       "descriptionPl": "Duży pomarańczowy prędkościomierz temperatury GPU z dwoma zegarami obciążenia.",
       "file": "SolarDaylight.tlcd",
       "thumbnail": "SolarDaylight.jpg",
+      "animation": "",
+      "animationFrames": 0,
+      "added": "2026-11-01",
       "tags": [
         "light",
         "dashboard"
@@ -843,6 +1269,9 @@
       "descriptionPl": "Trzykanałowy rejestrator: temperatura GPU, temperatura CPU i obciążenie.",
       "file": "LabInstrument.tlcd",
       "thumbnail": "LabInstrument.jpg",
+      "animation": "",
+      "animationFrames": 0,
+      "added": "2026-11-01",
       "tags": [
         "light",
         "graphs"
@@ -855,6 +1284,9 @@
       "descriptionPl": "Zaokrąglone białe karty z małymi pierścieniami temperatur, obciążenia, pamięci i FPS.",
       "file": "SkyDashboard.tlcd",
       "thumbnail": "SkyDashboard.jpg",
+      "animation": "",
+      "animationFrames": 0,
+      "added": "2026-11-01",
       "tags": [
         "light",
         "dashboard"
@@ -867,6 +1299,9 @@
       "descriptionPl": "Kawa ze śmietanką: szeryfowy zegar, odtwarzana muzyka i cztery paski odczytów.",
       "file": "Latte.tlcd",
       "thumbnail": "Latte.jpg",
+      "animation": "",
+      "animationFrames": 0,
+      "added": "2026-11-01",
       "tags": [
         "light",
         "music",
@@ -880,6 +1315,9 @@
       "descriptionPl": "Dwie niebieskie karty z wykresami CPU i GPU z mocą i temperaturą oraz szczegóły pamięci.",
       "file": "PolarPro.tlcd",
       "thumbnail": "PolarPro.jpg",
+      "animation": "",
+      "animationFrames": 0,
+      "added": "2026-11-01",
       "tags": [
         "light",
         "graphs"
@@ -892,6 +1330,9 @@
       "descriptionPl": "RAM, VRAM i dwa dyski: zajętość, temperatury, odczyt / zapis i wykres dysków.",
       "file": "MemoryStorage.tlcd",
       "thumbnail": "MemoryStorage.jpg",
+      "animation": "",
+      "animationFrames": 0,
+      "added": "2026-11-01",
       "tags": [
         "panel",
         "dashboard"
@@ -904,6 +1345,9 @@
       "descriptionPl": "Prędkość pobierania i wysyłania, wykres przepustowości, ping i czas pracy.",
       "file": "Network.tlcd",
       "thumbnail": "Network.jpg",
+      "animation": "",
+      "animationFrames": 0,
+      "added": "2026-11-01",
       "tags": [
         "panel",
         "graphs"
@@ -916,6 +1360,9 @@
       "descriptionPl": "Pionowe paski wentylatorów, temperatury cieczy, płyty i chipsetu oraz wykres temperatur.",
       "file": "Cooling.tlcd",
       "thumbnail": "Cooling.jpg",
+      "animation": "",
+      "animationFrames": 0,
+      "added": "2026-11-01",
       "tags": [
         "panel",
         "dashboard"
@@ -928,6 +1375,9 @@
       "descriptionPl": "Świecący zegar, odtwarzana muzyka i cztery szybkie odczyty.",
       "file": "ClockNowPlaying.tlcd",
       "thumbnail": "ClockNowPlaying.jpg",
+      "animation": "",
+      "animationFrames": 0,
+      "added": "2026-11-01",
       "tags": [
         "panel",
         "clock",
@@ -941,6 +1391,9 @@
       "descriptionPl": "Jedna ogromna temperatura GPU na segmentowym kolorowym łuku, z historią.",
       "file": "FocusGPUTemp.tlcd",
       "thumbnail": "FocusGPUTemp.jpg",
+      "animation": "",
+      "animationFrames": 0,
+      "added": "2026-11-01",
       "tags": [
         "panel",
         "gaming"
@@ -953,6 +1406,9 @@
       "descriptionPl": "Jedna ogromna temperatura CPU na segmentowym kolorowym łuku, z historią.",
       "file": "FocusCPUTemp.tlcd",
       "thumbnail": "FocusCPUTemp.jpg",
+      "animation": "",
+      "animationFrames": 0,
+      "added": "2026-11-01",
       "tags": [
         "panel",
         "gaming"
@@ -965,6 +1421,9 @@
       "descriptionPl": "Jedna ogromna liczba klatek na kolorowym łuku, z historią w słupkach.",
       "file": "FocusFPS.tlcd",
       "thumbnail": "FocusFPS.jpg",
+      "animation": "",
+      "animationFrames": 0,
+      "added": "2026-11-01",
       "tags": [
         "panel",
         "gaming"
