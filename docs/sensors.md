@@ -55,6 +55,9 @@ Use these in labels (`{gpu.model|upper}`) instead of typing your own model, so a
 | `gpu.vram.used`, `gpu.vram.free` | GB | |
 | `gpu.vram.percent` | % | |
 | `gpu.fan.rpm`, `gpu.fan.percent` | RPM, % | |
+| `gpu.throttle` | 0 / 1 | 1 while the GPU slows down because of heat or a hardware limit (NVIDIA, from the driver's NVML) |
+| `gpu.powerlimit` | 0 / 1 | 1 while the GPU is held at its power limit; normal under full load (NVIDIA) |
+| `gpu.limit` | text | Why the GPU is limited: Thermal, Power brake, HW slowdown or Power limit; no reading while nothing limits it (NVIDIA) |
 
 ## CPU
 

@@ -25,7 +25,7 @@ It drives the screen directly, with no vendor software, and turns it into your o
 ## Features
 
 **🎨 Themes**
-- 9 built-in themes plus **92 more in the online gallery**, one click away: animated video backgrounds (spinning vinyl, a playing cassette, concert lights, rain, a campfire …), music visualizers, painted art, retro terminals, weather stations, music players, light and dark designs. All of them show *your* hardware names automatically.
+- 9 built-in themes plus **98 more in the online gallery**, one click away: animated video backgrounds (spinning vinyl, a playing cassette, concert lights, rain, a campfire …), music visualizers, painted art, retro terminals, weather stations, music players, light and dark designs. All of them show *your* hardware names automatically.
 - Pictures, animated GIFs and videos as backgrounds, cropped and converted once so playback stays light.
 - **Playlists** that rotate themes with a cross-fade.
 - **Automatic theme:** switch to a music, game or night theme while something is going on (music playing, a game running, a time window, a sensor above or below a limit, an alert).
@@ -54,7 +54,7 @@ It drives the screen directly, with no vendor software, and turns it into your o
 
 ![Theme library](screenshots/gallery.png)
 
-**Online gallery:** 92 more themes, filtered by tags (animated, gaming, weather, music, light …) and added with one click (Themes tab → **Online**).
+**Online gallery:** 98 more themes, filtered by tags (animated, gaming, weather, music, light …) and added with one click (Themes tab → **Online**).
 
 ![Themes from the online gallery](screenshots/gallery-banner.png)
 

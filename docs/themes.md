@@ -62,7 +62,7 @@ Each widget type with an example, made with the app's own renderer.
 | **Tile** (sensor tile) | ![](images/widgets/widget-tile.png) | A card: label, big value, status stripe and an optional mini graph. |
 | **Bar** | ![](images/widgets/widget-bar.png) | A progress bar: min / max, start and end color, track, vertical, LED segments. |
 | **Arc / Needle** (gauge) | ![](images/widgets/widget-gauges.png) | Round gauges in three styles: arc, LED segments, needle. Start angle, sweep, thickness, segments. |
-| **Graph** | ![](images/widgets/widget-graph.png) | History from 30 s to 24 h, filled line or bars, optional second series, min / max markers, auto scale. |
+| **Graph** | ![](images/widgets/widget-graph.png) | History from 30 s to 24 h, filled line (any width) or bars, optional second series, min / max markers, auto scale. |
 | **Panel** | ![](images/widgets/widget-panel.png) | A background card: flat or gradient fill, border, rounded corners. |
 | **Image** | ![](images/widgets/widget-image-cover.png) | A picture, animated GIF or video; the file `media:cover` shows the album art of what's playing. |
 | **Spectrum** | ![](images/widgets/widget-spectrum.png) | The PC's sound, live: bars, mirror, wave or circle; bands, LED segments, falling peaks. |
@@ -92,9 +92,13 @@ The inspector groups a widget's properties in sections; only the ones that apply
 | **Visibility** | [Show the widget only sometimes](#showing-a-widget-only-sometimes) |
 | **Data** | The sensor, label text, prefix / suffix and number format |
 | Gauge, Graph, Bar, Spectrum, Options | The settings of that widget type |
-| **Font and text** | Font, size, bold / italic, alignment, **Text effect** (glow or shadow) and its color |
+| **Font and text** | Font, size, bold / italic, alignment, **Text effect** (glow or shadow) and its color; for values and clocks also the **Digit style** (below) |
 | **Colors** | Text, accent, background and border colors, border thickness, corner radius |
 | **Value range**, **Color by value**, **Color thresholds** | The [colors that follow the value](#colors-that-follow-the-value) |
+
+**Digit style** makes a value or clock look like a real display: **Nixie tubes** and **VFD display** draw the unlit "8" behind every digit and a glow (VFD adds the fine mesh of a fluorescent display), **7-segment** draws the digits from segments, with the unlit ones faintly visible and units small at the top. Pick the text color to match: orange for Nixie, aqua for VFD, red or green for 7-segment.
+
+![Digit styles](images/widgets/widget-digit-styles.png)
 
 Colors are `#RRGGBB` or `#AARRGGBB` (the first pair is opacity); the swatch next to each field shows the color, and an invalid value is marked red. **Number format** uses .NET format strings: `{0:F0}` → `57`, `{0:F1}` → `57.3`, `{0:F2}` → `4.35`.
 
@@ -159,7 +163,9 @@ Choosing a condition starts from the widget's own sensor; pick another under **S
 Press Esc (or **Background & grid**) and the inspector edits the theme itself:
 
 - **Background:** a color, plus an optional picture, GIF or video (MP4, MOV, WMV, AVI, MKV). When you pick a file you choose the crop, rotation and frame rate once; it is converted to the screen size, so playback stays light. **Fit**, **Opacity** and **Dimming** keep the data readable on top.
+- **Background by weather:** optional backgrounds for **Storm**, **Snow**, **Rain**, **Night**, **Fog** and **Cloudy** that replace the main one while that weather lasts (it needs a location in Settings → Weather). Rain, snow and storms win over night; a storm without its own background uses the rain one, fog uses the cloudy one. Fit, opacity and dimming are shared. The gallery theme **Window Seat** shows it.
 - **Smooth value changes:** bars, gauges and numbers glide to new readings (extra frames are drawn only while something moves).
+- **Warm glow with temperature:** a warm tint creeps in from the screen edges as the GPU or CPU temperature rises between the two limits you set (the middle stays clear). The gallery theme **Mecha HUD** uses it.
 - **How the theme appears on the LCD:** instantly, fading in from black, or revealed from the top.
 - **Grid:** a decorative grid drawn on the LCD, with its own color and spacing. Not to be confused with the editor's **Snap to grid**, which is never sent to the screen.
 
@@ -192,7 +198,7 @@ CPU {cpu.temp}°C      CPU 57°C
 
 <img src="images/editor-templates.png" align="right" width="320" alt="Templates">
 
-**Templates** (under the Add buttons) inserts ready-made blocks: GPU card, CPU card, clock with date, now playing (cover + spectrum), network (tiles + graph), weather now. To make your own, select some widgets and choose **Save the selection as a template…**; **Open the templates folder** shows where they're kept. An inserted block arrives as its own group.
+**Templates** (under the Add buttons) inserts ready-made blocks: GPU card, CPU card, clock with date, now playing (cover + spectrum), network (tiles + graph), weather now, and a **GPU throttling badge** that appears only while an NVIDIA GPU slows down because of heat or a hardware limit (sensor `gpu.throttle`, reason in `{gpu.limit}`). To make your own, select some widgets and choose **Save the selection as a template…**; **Open the templates folder** shows where they're kept. An inserted block arrives as its own group.
 
 A **group** is a folder in the layer list. Set it with the **Group** field (it applies to every selected widget) or Ctrl+G. A group can be selected, hidden or locked in one click. **✨ Auto** groups widgets by the first word of their name (`GPU …`, `CPU …`).
 

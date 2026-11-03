@@ -1067,6 +1067,99 @@
       ]
     },
     {
+      "name": "Monolith",
+      "author": "RigCanvas",
+      "description": "One huge number on black: the GPU temperature while you play, the clock while the PC idles.",
+      "descriptionPl": "Jedna wielka liczba na czerni: temperatura GPU, gdy grasz, i zegar, gdy komputer odpoczywa.",
+      "file": "Monolith.tlcd",
+      "thumbnail": "Monolith.jpg",
+      "animation": "",
+      "animationFrames": 0,
+      "added": "2026-11-02",
+      "tags": [
+        "minimal",
+        "clock"
+      ]
+    },
+    {
+      "name": "Supercar Cluster",
+      "author": "RigCanvas",
+      "description": "A grand-tourer cluster: round shift lights, a brass-ringed tach for GPU load, oil and water temperatures and FPS as speed.",
+      "descriptionPl": "Zegary grand tourera: okrągłe lampki zmiany biegów, obrotomierz z mosiężnym pierścieniem dla obciążenia GPU, olej i woda oraz FPS jako prędkość.",
+      "file": "SupercarCluster.tlcd",
+      "thumbnail": "SupercarCluster.jpg",
+      "animation": "",
+      "animationFrames": 0,
+      "added": "2026-11-02",
+      "tags": [
+        "gaming",
+        "dashboard"
+      ]
+    },
+    {
+      "name": "Nixie Lab",
+      "author": "RigCanvas",
+      "description": "Glowing orange Nixie tubes on walnut: the clock, temperatures, load and FPS, each digit over its unlit ghost.",
+      "descriptionPl": "Pomarańczowe lampy Nixie na orzechu: zegar, temperatury, obciążenie i FPS, każda cyfra na tle nieświecących „88”.",
+      "file": "NixieLab.tlcd",
+      "thumbnail": "NixieLab.jpg",
+      "animation": "",
+      "animationFrames": 0,
+      "added": "2026-11-02",
+      "tags": [
+        "retro",
+        "clock",
+        "elegant"
+      ]
+    },
+    {
+      "name": "Mecha HUD",
+      "author": "RigCanvas",
+      "description": "A mech cockpit: a segmented core ring, four readouts and a status band that turns into a heat warning when the GPU runs hot.",
+      "descriptionPl": "Kokpit mecha: segmentowy pierścień rdzenia, cztery odczyty i pasek stanu, który zmienia się w ostrzeżenie, gdy GPU się grzeje.",
+      "file": "MechaHUD.tlcd",
+      "thumbnail": "MechaHUD.jpg",
+      "animation": "",
+      "animationFrames": 0,
+      "added": "2026-11-02",
+      "tags": [
+        "scifi",
+        "gaming"
+      ]
+    },
+    {
+      "name": "Window Seat",
+      "author": "RigCanvas",
+      "description": "A window on the weather: the background changes with it, sunrise, rain on the glass, falling snow, the aurora at night, mist. With the clock, the forecast and two temperatures.",
+      "descriptionPl": "Okno na pogodę: tło zmienia się razem z nią, wschód słońca, deszcz na szybie, padający śnieg, zorza nocą, mgła. Do tego zegar, prognoza i dwie temperatury.",
+      "file": "WindowSeat.tlcd",
+      "thumbnail": "WindowSeat.jpg",
+      "animation": "",
+      "animationFrames": 0,
+      "added": "2026-11-03",
+      "tags": [
+        "weather",
+        "animated",
+        "nature"
+      ]
+    },
+    {
+      "name": "Lofi Pixel Bedroom",
+      "author": "RigCanvas",
+      "description": "A pixel-art bedroom: the window follows the day and the rain, the monitor shows the GPU, the clock and the song below.",
+      "descriptionPl": "Pikselowy pokój: okno pokazuje dzień, noc i deszcz z pogody, monitor temperaturę GPU, a pod spodem zegar i piosenka.",
+      "file": "LofiPixelBedroom.tlcd",
+      "thumbnail": "LofiPixelBedroom.jpg",
+      "animation": "",
+      "animationFrames": 0,
+      "added": "2026-11-02",
+      "tags": [
+        "playful",
+        "retro",
+        "weather"
+      ]
+    },
+    {
       "name": "Carbon Racing",
       "author": "RigCanvas",
       "description": "Race telemetry: a big tach for GPU load, two small dials and a strip of readouts.",

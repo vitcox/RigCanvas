@@ -24,7 +24,7 @@ Obsługuje ekran bezpośrednio, bez oprogramowania producenta, i zamienia go w T
 ## Funkcje
 
 **🎨 Motywy**
-- 9 wbudowanych motywów i **92 kolejne w galerii online**, jedno kliknięcie dalej: animowane tła wideo (kręcący się winyl, grająca kaseta, światła koncertu, deszcz, ognisko …), wizualizacje muzyki, malowane grafiki, retro terminale, stacje pogodowe, odtwarzacze muzyki, jasne i ciemne projekty. Wszystkie same pokazują nazwy *Twojego* sprzętu.
+- 9 wbudowanych motywów i **98 kolejnych w galerii online**, jedno kliknięcie dalej: animowane tła wideo (kręcący się winyl, grająca kaseta, światła koncertu, deszcz, ognisko …), wizualizacje muzyki, malowane grafiki, retro terminale, stacje pogodowe, odtwarzacze muzyki, jasne i ciemne projekty. Wszystkie same pokazują nazwy *Twojego* sprzętu.
 - Obrazy, animowane GIF-y i filmy jako tło, kadrowane i przerabiane raz, więc odtwarzanie jest lekkie.
 - **Playlisty** zmieniające motywy z płynnym przejściem.
 - **Automatyczna zmiana motywu:** muzyczny, growy albo nocny motyw, gdy coś się dzieje (gra muzyka, uruchomiona gra, przedział godzin, czujnik powyżej lub poniżej progu, alert).
@@ -55,7 +55,7 @@ Program ma polski i angielski interfejs; zrzuty pokazują wersję angielską.
 
 ![Biblioteka motywów](screenshots/gallery.png)
 
-**Galeria online:** 92 kolejne motywy, filtrowane tagami (animowane, gry, pogoda, muzyka, jasne …) i dodawane jednym kliknięciem (zakładka Motywy → **Online**).
+**Galeria online:** 98 kolejnych motywów, filtrowane tagami (animowane, gry, pogoda, muzyka, jasne …) i dodawane jednym kliknięciem (zakładka Motywy → **Online**).
 
 ![Motywy z galerii online](screenshots/gallery-banner.png)
 
